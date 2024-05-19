@@ -1,0 +1,781 @@
+proxies:
+- name: BSvrDO_XCP-UTU_IP1
+  type: trojan
+  server: 104.18.56.56
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: BSvrDO_XCP-UTU_IP2
+  type: trojan
+  server: 104.18.62.203
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: BSvrDO_Vision_IP1
+  type: trojan
+  server: 104.18.225.52
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud	  
+- name: BSvrDO_GameFF_H1
+  type: trojan
+  server: ava.game.naver.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud	  	  
+- name: BSvrDO_Vidio_IP1
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: BSvrDO_Vidio_IP2
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: BSvrDO_Vidio_H1
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: BSvrDO_Vidio_H2
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: BSvrDO_Sosmed_H1
+  type: trojan
+  server: ava.game.naver.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud	  
+- name: BSvrDO_Netflik_H1
+  type: trojan
+  server: npca.netflix.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud	
+- name: BSvrDO_Netflik_H2
+  type: trojan
+  server: cache.netflix.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: BSvrDO_Netflik_H3
+  type: trojan
+  server: creativeservices.netflix.com
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud	  
+- name: BSvrDO_Opok50Mb_H1
+  type: trojan
+  server: pay.ovo.id
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: BSvrDO_Zoom_H1
+  type: trojan
+  server: gomarketplacefront-cf.zoom.us
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: BSvrDO_Zoom_H2
+  type: trojan
+  server: marketplacefront-cf.zoom.us
+  port: 443
+  password: 34053a1e-ab58-4889-9e16-7ec3bcb56302
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: dstb.cloud
+- name: BSvrNS1_XCP-UTU_IP1
+  type: trojan
+  server: 104.18.56.56
+  port: 443
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
+  udp: true
+  sni: nusa1.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa1.dstb.cloud
+- name: BSvrNS1_XCP-UTU_IP2
+  type: trojan
+  server: 104.18.62.203
+  port: 443
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
+  udp: true
+  sni: nusa1.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa1.dstb.cloud
+- name: BSvrNS1_Vision_IP1
+  type: trojan
+  server: 104.18.225.52
+  port: 443
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
+  udp: true
+  sni: nusa1.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa1.dstb.cloud	  
+- name: BSvrNS1_GameFF_H1
+  type: trojan
+  server: ava.game.naver.com
+  port: 443
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
+  udp: true
+  sni: nusa1.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa1.dstb.cloud	  	  
+- name: BSvrNS1_Vidio_IP1
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
+  udp: true
+  sni: nusa1.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa1.dstb.cloud
+- name: BSvrNS1_Vidio_IP2
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
+  udp: true
+  sni: nusa1.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa1.dstb.cloud
+- name: BSvrNS1_Vidio_H1
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
+  udp: true
+  sni: nusa1.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa1.dstb.cloud
+- name: BSvrNS1_Vidio_H2
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
+  udp: true
+  sni: nusa1.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa1.dstb.cloud
+- name: BSvrNS1_Sosmed_H1
+  type: trojan
+  server: ava.game.naver.com
+  port: 443
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
+  udp: true
+  sni: nusa1.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa1.dstb.cloud	  
+- name: BSvrNS1_Netflik_H1
+  type: trojan
+  server: npca.netflix.com
+  port: 443
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
+  udp: true
+  sni: nusa1.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa1.dstb.cloud	
+- name: BSvrNS1_Netflik_H2
+  type: trojan
+  server: cache.netflix.com
+  port: 443
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
+  udp: true
+  sni: nusa1.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa1.dstb.cloud
+- name: BSvrNS1_Netflik_H3
+  type: trojan
+  server: creativeservices.netflix.com
+  port: 443
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
+  udp: true
+  sni: nusa1.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa1.dstb.cloud	  
+- name: BSvrNS1_Opok50Mb_H1
+  type: trojan
+  server: pay.ovo.id
+  port: 443
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
+  udp: true
+  sni: nusa1.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa1.dstb.cloud
+- name: BSvrNS1_Zoom_H1
+  type: trojan
+  server: gomarketplacefront-cf.zoom.us
+  port: 443
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
+  udp: true
+  sni: nusa1.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa1.dstb.cloud
+- name: BSvrNS1_Zoom_H2
+  type: trojan
+  server: marketplacefront-cf.zoom.us
+  port: 443
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
+  udp: true
+  sni: nusa1.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa1.dstb.cloud
+- name: BSvrNS2_XCP-UTU_IP1
+  type: trojan
+  server: 104.18.56.56
+  port: 443
+  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  udp: true
+  sni: nusa2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa2.dstb.cloud
+- name: BSvrNS2_XCP-UTU_IP2
+  type: trojan
+  server: 104.18.62.203
+  port: 443
+  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  udp: true
+  sni: nusa2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa2.dstb.cloud
+- name: BSvrNS2_Vision_IP1
+  type: trojan
+  server: 104.18.225.52
+  port: 443
+  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  udp: true
+  sni: nusa2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa2.dstb.cloud	  
+- name: BSvrNS2_GameFF_H1
+  type: trojan
+  server: ava.game.naver.com
+  port: 443
+  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  udp: true
+  sni: nusa2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa2.dstb.cloud	  	  
+- name: BSvrNS2_Vidio_IP1
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  udp: true
+  sni: nusa2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa2.dstb.cloud
+- name: BSvrNS2_Vidio_IP2
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  udp: true
+  sni: nusa2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa2.dstb.cloud
+- name: BSvrNS2_Vidio_H1
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  udp: true
+  sni: nusa2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa2.dstb.cloud
+- name: BSvrNS2_Vidio_H2
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  udp: true
+  sni: nusa2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa2.dstb.cloud
+- name: BSvrNS2_Sosmed_H1
+  type: trojan
+  server: ava.game.naver.com
+  port: 443
+  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  udp: true
+  sni: nusa2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa2.dstb.cloud	  
+- name: BSvrNS2_Netflik_H1
+  type: trojan
+  server: npca.netflix.com
+  port: 443
+  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  udp: true
+  sni: nusa2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa2.dstb.cloud	
+- name: BSvrNS2_Netflik_H2
+  type: trojan
+  server: cache.netflix.com
+  port: 443
+  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  udp: true
+  sni: nusa2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa2.dstb.cloud
+- name: BSvrNS2_Netflik_H3
+  type: trojan
+  server: creativeservices.netflix.com
+  port: 443
+  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  udp: true
+  sni: nusa2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa2.dstb.cloud	  
+- name: BSvrNS2_Opok50Mb_H1
+  type: trojan
+  server: pay.ovo.id
+  port: 443
+  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  udp: true
+  sni: nusa2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa2.dstb.cloud
+- name: BSvrNS2_Zoom_H1
+  type: trojan
+  server: gomarketplacefront-cf.zoom.us
+  port: 443
+  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  udp: true
+  sni: nusa2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa2.dstb.cloud
+- name: BSvrNS2_Zoom_H2
+  type: trojan
+  server: marketplacefront-cf.zoom.us
+  port: 443
+  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  udp: true
+  sni: nusa2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa2.dstb.cloud
+- name: BSvrRM1_XCP-UTU_IP1
+  type: trojan
+  server: 104.18.56.56
+  port: 443
+  password: b58f40b1-2b64-4af8-85d2-90c375198764
+  udp: true
+  sni: rumah1.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: rumah1.cloud
+- name: BSvrRM1_XCP-UTU_IP2
+  type: trojan
+  server: 104.18.62.203
+  port: 443
+  password: b58f40b1-2b64-4af8-85d2-90c375198764
+  udp: true
+  sni: rumah1.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: rumah1.cloud
+- name: BSvrRM1_Vision_IP1
+  type: trojan
+  server: 104.18.225.52
+  port: 443
+  password: b58f40b1-2b64-4af8-85d2-90c375198764
+  udp: true
+  sni: rumah1.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: rumah1.cloud	  
+- name: BSvrRM1_GameFF_H1
+  type: trojan
+  server: ava.game.naver.com
+  port: 443
+  password: b58f40b1-2b64-4af8-85d2-90c375198764
+  udp: true
+  sni: rumah1.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: rumah1.cloud	  	  
+- name: BSvrRM1_Vidio_IP1
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: b58f40b1-2b64-4af8-85d2-90c375198764
+  udp: true
+  sni: rumah1.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: rumah1.cloud
+- name: BSvrRM1_Vidio_IP2
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: b58f40b1-2b64-4af8-85d2-90c375198764
+  udp: true
+  sni: rumah1.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: rumah1.cloud
+- name: BSvrRM1_Vidio_H1
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: b58f40b1-2b64-4af8-85d2-90c375198764
+  udp: true
+  sni: rumah1.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: rumah1.cloud
+- name: BSvrRM1_Vidio_H2
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: b58f40b1-2b64-4af8-85d2-90c375198764
+  udp: true
+  sni: rumah1.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: rumah1.cloud
+- name: BSvrRM1_Sosmed_H1
+  type: trojan
+  server: ava.game.naver.com
+  port: 443
+  password: b58f40b1-2b64-4af8-85d2-90c375198764
+  udp: true
+  sni: rumah1.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: rumah1.cloud	  
+- name: BSvrRM1_Netflik_H1
+  type: trojan
+  server: npca.netflix.com
+  port: 443
+  password: b58f40b1-2b64-4af8-85d2-90c375198764
+  udp: true
+  sni: rumah1.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: rumah1.cloud	
+- name: BSvrRM1_Netflik_H2
+  type: trojan
+  server: cache.netflix.com
+  port: 443
+  password: b58f40b1-2b64-4af8-85d2-90c375198764
+  udp: true
+  sni: rumah1.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: rumah1.cloud
+- name: BSvrRM1_Netflik_H3
+  type: trojan
+  server: creativeservices.netflix.com
+  port: 443
+  password: b58f40b1-2b64-4af8-85d2-90c375198764
+  udp: true
+  sni: rumah1.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: rumah1.cloud	  
+- name: BSvrRM1_Opok50Mb_H1
+  type: trojan
+  server: pay.ovo.id
+  port: 443
+  password: b58f40b1-2b64-4af8-85d2-90c375198764
+  udp: true
+  sni: rumah1.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: rumah1.cloud
+- name: BSvrRM1_Zoom_H1
+  type: trojan
+  server: gomarketplacefront-cf.zoom.us
+  port: 443
+  password: b58f40b1-2b64-4af8-85d2-90c375198764
+  udp: true
+  sni: rumah1.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: rumah1.cloud
+- name: BSvrRM1_Zoom_H2
+  type: trojan
+  server: marketplacefront-cf.zoom.us
+  port: 443
+  password: b58f40b1-2b64-4af8-85d2-90c375198764
+  udp: true
+  sni: rumah1.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojanws
+    headers:
+      Host: rumah1.cloud
