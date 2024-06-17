@@ -51,58 +51,6 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa1.dstb.cloud
-- name: BSvrNS1_XCL-Vidio_IP4
-  type: trojan
-  server: 104.17.155.243
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: nusa1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa1.dstb.cloud
-- name: BSvrNS1_XCL-Vidio_IP5
-  type: trojan
-  server: 104.17.159.243
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: nusa1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa1.dstb.cloud
-- name: BSvrNS1_XCL-Vidio_IP6
-  type: trojan
-  server: 104.17.157.243
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: nusa1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa1.dstb.cloud
-- name: BSvrNS1_XCL-Vidio_IP7
-  type: trojan
-  server: 104.17.156.243
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: nusa1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa1.dstb.cloud
 - name: BSvrNS1_XCL-Vidio_H1
   type: trojan
   server: quiz.vidio.com
@@ -379,6 +327,19 @@ proxies:
 - name: BSvrNS2_XCL-Vidio_IP2
   type: trojan
   server: 104.22.5.240
+  port: 443
+  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  udp: true
+  sni: nusa2.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa2.dstb.cloud
+- name: BSvrNS2_XCL-Vidio_IP3
+  type: trojan
+  server: 104.22.4.240
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
