@@ -1,5 +1,5 @@
 proxies:
-- name: BSvrNS1_SNI_SSL
+- name: BSvrNS1_BIZ_SNI_SSL
   type: trojan
   server: nusa2.dstb.cloud
   port: 443
@@ -25,7 +25,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa2.dstb.cloud
-- name: BNusaAryo1_WS_Bolak-balik
+- name: BNusaAryo1_BIZ_Bolak-balik
   type: trojan
   server: 104.17.3.81
   port: 443
@@ -379,7 +379,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa1.dstb.cloud
-- name: BSvrNS2_SNI_SSL
+- name: BSvrNS2_BIZ_SNI_SSL
   type: trojan
   server: nusa2.dstb.cloud
   port: 443
@@ -405,7 +405,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa2.dstb.cloud
-- name: BNusaAryo2_WS_Bolak-balik
+- name: BNusaAryo2_BIZ_Bolak-balik
   type: trojan
   server: 104.17.3.81
   port: 443
