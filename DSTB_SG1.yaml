@@ -1,9 +1,9 @@
 proxies:
 - name: BSvrNS1_BIZ_SNI_SSL
   type: trojan
-  server: nusa2.dstb.cloud
+  server: nusa1.dstb.cloud
   port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
   udp: true
   sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
   skip-cert-verify: true
@@ -16,7 +16,7 @@ proxies:
   type: trojan
   server: support.zoom.us
   port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
   udp: true
   sni: zoomgov.dstb.cloud
   skip-cert-verify: true
@@ -24,36 +24,7 @@ proxies:
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa2.dstb.cloud
-- name: BNusaAryo1_BIZ_Bolak-balik
-  type: trojan
-  server: 104.17.3.81
-  port: 443
-  password: 5d2a4e81-ba9a-4432-9ac4-d32b7026f6e2
-  udp: true
-  sni: nusa.onserver.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojan"
-    headers:
-      Host: nusa.onserver.my.id
-- name: BVmessAryo1_BIZ_pointing
-  type: vmess
-  server: support.zoom.us
-  port: 443
-  uuid: 1ae9a249-f74d-4beb-a299-59faf4ed8221
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: zoomgov.onserver.my.id
-  network: ws
-  ws-opts:
-    path: "/vmess"
-    headers:
-      Host: nusa.onserver.my.id
+      Host: nusa1.dstb.cloud
 - name: BSvrNS1_BIZ-Edu_IP1
   type: trojan
   server: 104.17.3.81
@@ -405,35 +376,6 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa2.dstb.cloud
-- name: BNusaAryo2_BIZ_Bolak-balik
-  type: trojan
-  server: 104.17.3.81
-  port: 443
-  password: 5d2a4e81-ba9a-4432-9ac4-d32b7026f6e2
-  udp: true
-  sni: nusa.onserver.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojan"
-    headers:
-      Host: nusa.onserver.my.id
-- name: BVmessAryo2_BIZ_pointing
-  type: vmess
-  server: support.zoom.us
-  port: 443
-  uuid: 1ae9a249-f74d-4beb-a299-59faf4ed8221
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: zoomgov.onserver.my.id
-  network: ws
-  ws-opts:
-    path: "/vmess"
-    headers:
-      Host: nusa.onserver.my.id
 - name: BSvrNS2_BIZ-Edu_IP1
   type: trojan
   server: 104.17.3.81
