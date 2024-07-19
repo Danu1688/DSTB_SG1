@@ -1,4 +1,69 @@
 proxies:
+- name: Trojan-SG
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: 9c1ca28f-2646-4081-bf17-dacf0361001e
+  udp: true
+  sni: zoomgov.inject.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: melbi.inject.my.id
+- name: Trojan-xcv
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: ed6912be-aad6-4015-a7f4-aba056e52388
+  udp: true
+  sni: zoomgov.onserver.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: nusa.onserver.my.id
+- name: Trojan-xcv-sni
+  type: trojan
+  server: nusa.onserver.my.id
+  port: 443
+  password: ed6912be-aad6-4015-a7f4-aba056e52388
+  udp: true
+  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+- name: Trojan-xcv-bolak-balik
+  type: trojan
+  server: 172.67.73.39
+  port: 443
+  password: ed6912be-aad6-4015-a7f4-aba056e52388
+  udp: true
+  sni: nusa.onserver.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: nusa.onserver.my.id
+- name: Trojan-xcv-bolak-balik2
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: ed6912be-aad6-4015-a7f4-aba056e52388
+  udp: true
+  sni: nusa.onserver.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: nusa.onserver.my.id
 - name: BSvrNS1_BIZ_SNI_SSL
   type: trojan
   server: nusa1.dstb.cloud
