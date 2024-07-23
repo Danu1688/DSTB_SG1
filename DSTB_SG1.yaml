@@ -1,69 +1,69 @@
 proxies:
-- name: Trojan-SG
+- name: BSvrNS1_TJ-ID
   type: trojan
   server: support.zoom.us
   port: 443
-  password: 9c1ca28f-2646-4081-bf17-dacf0361001e
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
   udp: true
-  sni: zoomgov.inject.my.id
+  sni: zoomgov.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojan"
+    path: /trojan-ws
     headers:
-      Host: melbi.inject.my.id
-- name: Trojan-xcv
+      Host: nusa1.dstb.cloud
+- name: BSvrNS1_TJ-xcv
   type: trojan
   server: support.zoom.us
   port: 443
-  password: ed6912be-aad6-4015-a7f4-aba056e52388
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
   udp: true
-  sni: zoomgov.onserver.my.id
+  sni: zoomgov.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojan"
+    path: /trojan-ws
     headers:
-      Host: nusa.onserver.my.id
-- name: Trojan-xcv-sni
+      Host: nusa1.dstb.cloud
+- name: BSvrNS1_TJ-xcv-sni
   type: trojan
-  server: nusa.onserver.my.id
+  server: nusa1.dstb.cloud
   port: 443
-  password: ed6912be-aad6-4015-a7f4-aba056e52388
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
   udp: true
   sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojan"
+    path: /trojan-ws
     headers:
       Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: Trojan-xcv-bolak-balik
+- name: BSvrNS1_TJ-xcv-bolak1
   type: trojan
   server: 172.67.73.39
   port: 443
-  password: ed6912be-aad6-4015-a7f4-aba056e52388
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
   udp: true
-  sni: nusa.onserver.my.id
+  sni: nusa1.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojan"
+    path: /trojan-ws
     headers:
-      Host: nusa.onserver.my.id
-- name: Trojan-xcv-bolak-balik2
+      Host: nusa1.dstb.cloud
+- name: BSvrNS1_TJ-xcv-Bolak2
   type: trojan
   server: 104.17.3.81
   port: 443
-  password: ed6912be-aad6-4015-a7f4-aba056e52388
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
   udp: true
-  sni: nusa.onserver.my.id
+  sni: nusa1.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: "/trojan"
+    path: /trojan-ws
     headers:
-      Host: nusa.onserver.my.id
+      Host: nusa1.dstb.cloud
 - name: BSvrNS1_BIZ_SNI_SSL
   type: trojan
   server: nusa1.dstb.cloud
