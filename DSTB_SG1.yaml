@@ -415,7 +415,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa1.dstb.cloud
-- name: ASvrNS2_TJ-ID
+- name: BSvrNS2_TJ-ID
   type: trojan
   server: support.zoom.us
   port: 443
@@ -428,7 +428,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa2.dstb.cloud
-- name: ASvrNS2_TJ-xcv
+- name: BSvrNS2_TJ-xcv
   type: trojan
   server: support.zoom.us
   port: 443
@@ -441,7 +441,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa2.dstb.cloud
-- name: ASvrNS2_TJ-xcv-sni
+- name: BSvrNS2_TJ-xcv-sni
   type: trojan
   server: nusa2.dstb.cloud
   port: 443
@@ -454,7 +454,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: ASvrNS2_TJ-xcv-Bolak1
+- name: BSvrNS2_TJ-xcv-Bolak1
   type: trojan
   server: 172.67.73.39
   port: 443
@@ -467,7 +467,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa2.dstb.cloud
-- name: ASvrNS2_TJ-xcv-Bolak2
+- name: BSvrNS2_TJ-xcv-Bolak2
   type: trojan
   server: 104.17.3.81
   port: 443
