@@ -1,4 +1,420 @@
 proxies:
+- name: ASvrDO1_TJ-ID
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: zoomgov.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_TJ-xcv
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: zoomgov.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_TJ-xcv-sni
+  type: trojan
+  server: dstb.cloud
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+- name: ASvrDO1_TJ-xcv-Bolak1
+  type: trojan
+  server: 172.67.73.39
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_TJ-xcv-Bolak2
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_BIZ_SNI_SSL
+  type: trojan
+  server: dstb.cloud
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+- name: ASvrDO1_BIZ_Pointing
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: zoomgov.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_BIZ-Edu_IP1
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_XCL-VIDIO_Pointing1
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: quiz.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_XCL-VIDIO_Pointing2
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: quiz.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_XCL-Vidio_IP1
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_XCL-Vidio_IP2
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_XCL-Vidio_IP3
+  type: trojan
+  server: 104.22.4.240
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_XCL-Vidio_H1
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_XCL-Vidio_H2
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_XCL-Vidio_H3
+  type: trojan
+  server: quiz.staging.vidio.com
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_BIZ-Zoom_H1
+  type: trojan
+  server: gomarketplacefront-cf.zoom.us
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_BIZ-Zoom_H2
+  type: trojan
+  server: marketplacefront-cf.zoom.us
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_BIZ-Zoom_H3
+  type: trojan
+  server: gomarketplacecontent-cf.zoom.us
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_XCL-GameFF_H1
+  type: trojan
+  server: ava.game.naver.com
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_XCL-GameFF_H2
+  type: trojan
+  server: df.game.naver.com
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_XCL_GameFF_H3
+  type: trojan
+  server: care.pmang.game.naver.com
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_XCL_GameFF_H4
+  type: trojan
+  server: account.pmang.game.naver.com
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_XCL-Gopay_H1
+  type: trojan
+  server: app-stg.gopay.co.id
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud	  
+- name: ASvrDO1_XCL_IP1
+  type: trojan
+  server: 104.16.125.59
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_XCL_IP2
+  type: trojan
+  server: 104.16.126.59
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_XCL_IP3
+  type: trojan
+  server: 104.18.214.235
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_XCL_IP4
+  type: trojan
+  server: 104.18.213.235
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_XCL_IP5
+  type: trojan
+  server: 162.159.140.158
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_XCL_IP6
+  type: trojan
+  server: 104.18.3.96
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_XCL_IP7
+  type: trojan
+  server: 104.18.2.96
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: ASvrDO1_Opok50Mb_H1
+  type: trojan
+  server: pay.ovo.id
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
 - name: BSvrNS1_TJ-ID
   type: trojan
   server: support.zoom.us
