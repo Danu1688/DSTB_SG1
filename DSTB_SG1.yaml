@@ -1,5 +1,5 @@
 proxies:
-- name: ASvrDO1_TJ-ID
+- name: ASvrDO1_XCV-WILLCARD
   type: trojan
   server: support.zoom.us
   port: 443
@@ -12,7 +12,7 @@ proxies:
     path: /trojan
     headers:
       Host: dstb.cloud
-- name: ASvrDO1_TJ-xcv
+- name: ASvrDO1_BIZ_Pointing
   type: trojan
   server: support.zoom.us
   port: 443
@@ -77,19 +77,6 @@ proxies:
     path: /trojan
     headers:
       Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: ASvrDO1_BIZ_Pointing
-  type: trojan
-  server: support.zoom.us
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: zoomgov.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: dstb.cloud
 - name: ASvrDO1_BIZ-Edu_IP1
   type: trojan
   server: 104.17.3.81
@@ -415,7 +402,7 @@ proxies:
     path: /trojan
     headers:
       Host: dstb.cloud
-- name: BSvrNS1_TJ-ID
+- name: BSvrNS1_XCV-WILLCARD
   type: trojan
   server: support.zoom.us
   port: 443
@@ -428,7 +415,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa1.dstb.cloud
-- name: BSvrNS1_TJ-xcv
+- name: BSvrNS1_BIZ_Pointing
   type: trojan
   server: support.zoom.us
   port: 443
@@ -493,19 +480,6 @@ proxies:
     path: /trojan-ws
     headers:
       Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: BSvrNS1_BIZ_Pointing
-  type: trojan
-  server: support.zoom.us
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: zoomgov.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa1.dstb.cloud
 - name: BSvrNS1_BIZ-Edu_IP1
   type: trojan
   server: 104.17.3.81
@@ -831,7 +805,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa1.dstb.cloud
-- name: BSvrNS2_TJ-ID
+- name: BSvrNS2_XCV-WILLCARD
   type: trojan
   server: support.zoom.us
   port: 443
@@ -844,7 +818,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa2.dstb.cloud
-- name: BSvrNS2_TJ-xcv
+- name: BSvrNS2_BIZ_Pointing
   type: trojan
   server: support.zoom.us
   port: 443
@@ -909,19 +883,6 @@ proxies:
     path: /trojan-ws
     headers:
       Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: BSvrNS2_BIZ_Pointing
-  type: trojan
-  server: support.zoom.us
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: zoomgov.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa2.dstb.cloud
 - name: BSvrNS2_BIZ-Edu_IP1
   type: trojan
   server: 104.17.3.81
