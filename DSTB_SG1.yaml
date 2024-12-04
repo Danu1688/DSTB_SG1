@@ -37,7 +37,7 @@ proxies:
   ws-opts:
     path: /trojan
     headers:
-      Host: zoomgov.dstb.cloud
+      Host: dstb.cloud
 - name: BSvrDO1_XCV-WILLCARD2
   type: trojan
   server: support.zoom.us
@@ -50,7 +50,7 @@ proxies:
   ws-opts:
     path: /trojan
     headers:
-      Host: support.zoom.us.dstb.cloud
+      Host: dstb.cloud
 - name: BSvrDO1_TJ-xcv-sni
   type: trojan
   server: dstb.cloud
