@@ -77,6 +77,75 @@ proxies:
     path: /trojan
     headers:
       Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+- name: Trojan-VIU-CDN--Aryo-WILCARD
+  type: trojan
+  server: zaintest.vuclip.com
+  port: 443
+  password: aryoyoutube
+  udp: true
+  sni: zaintest.vuclip.com.trsg.aryobrokolly.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojan"
+    headers:
+      Host: zaintest.vuclip.com.trsg.aryobrokolly.my.id
+- name: Viu-SG1-Aryo-WILCARD
+  type: vless
+  server: zaintest.vuclip.com
+  port: 443
+  uuid: 90aaf66a-74fe-44c8-b924-af1afc7b6eeb
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: zaintest.vuclip.com.sgdo.aryobrokolly.my.id
+  network: ws
+  ws-opts:
+    path: "/aryo"
+    headers:
+      Host: zaintest.vuclip.com.sgdo.aryobrokolly.my.id
+- name: Viu-SG2-Aryo-WILCARD
+  type: vless
+  server: zaintest.vuclip.com
+  port: 443
+  uuid: b8d2db54-e92d-41f5-bf66-a648b71f540b
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: zaintest.vuclip.com.sgdo.aryobrokolly.my.id
+  network: ws
+  ws-opts:
+    path: "/aryo"
+    headers:
+      Host: zaintest.vuclip.com.sgdo.aryobrokolly.my.id
+- name: Viu-SG3-Aryo-WILCARD
+  type: vless
+  server: zaintest.vuclip.com
+  port: 443
+  uuid: 8c033258-d33f-432d-9c90-1ab693742396
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: zaintest.vuclip.com.sg2.aryobrokolly.my.id
+  network: ws
+  ws-opts:
+    path: "/aryo"
+    headers:
+      Host: zaintest.vuclip.com.sg2.aryobrokolly.my.id
+- name: VIDIO-SG-Aryo-WILCARD
+  type: vless
+  server: quiz.int.vidio.com
+  port: 443
+  uuid: a36bf8ae-076d-4be8-8f14-ed62b63d98c2
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: quiz.int.vidio.com.aryobrokolly.my.id
+  network: ws
+  ws-opts:
+    path: "/aryo"
+    headers:
+      Host: quiz.int.vidio.com.aryobrokolly.my.id
 - name: BSvrDO1_TJ-XCP_VIU-IP1
   type: trojan
   server: 104.16.51.111
