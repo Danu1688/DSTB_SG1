@@ -1,5 +1,5 @@
 proxies:
-- name: BSvrDO1_TJ-xcv-Bolak1
+- name: BSvrDO1_TJ-xcv-BolakA
   type: trojan
   server: 104.17.3.81
   port: 443
@@ -12,7 +12,7 @@ proxies:
     path: /trojan
     headers:
       Host: dstb.cloud
-- name: BSvrDO1_TJ-xcv-Bolak2
+- name: BSvrDO1_TJ-xcv-BolakB
   type: trojan
   server: 172.67.73.39
   port: 443
@@ -76,7 +76,7 @@ proxies:
   ws-opts:
     path: "/trojan"
     headers:
-      Host: zaintest.vuclip.com.trsg.aryobrokolly.my.id
+      Host: trsg.aryobrokolly.my.id
 - name: Viu-SG1-Aryo-WILCARD
   type: vless
   server: zaintest.vuclip.com
@@ -90,7 +90,7 @@ proxies:
   ws-opts:
     path: "/aryo"
     headers:
-      Host: zaintest.vuclip.com.sgdo.aryobrokolly.my.id
+      Host: sgdo.aryobrokolly.my.id
 - name: Viu-SG2-Aryo-WILCARD
   type: vless
   server: zaintest.vuclip.com
@@ -104,7 +104,7 @@ proxies:
   ws-opts:
     path: "/aryo"
     headers:
-      Host: zaintest.vuclip.com.sgdo.aryobrokolly.my.id
+      Host: sgdo.aryobrokolly.my.id
 - name: Viu-SG3-Aryo-WILCARD
   type: vless
   server: zaintest.vuclip.com
@@ -118,7 +118,7 @@ proxies:
   ws-opts:
     path: "/aryo"
     headers:
-      Host: zaintest.vuclip.com.sg2.aryobrokolly.my.id
+      Host: sg2.aryobrokolly.my.id
 - name: VIDIO-SG-Aryo-WILCARD
   type: vless
   server: quiz.int.vidio.com
@@ -132,7 +132,7 @@ proxies:
   ws-opts:
     path: "/aryo"
     headers:
-      Host: quiz.int.vidio.com.aryobrokolly.my.id
+      Host: aryobrokolly.my.id
 - name: BSvrDO1_TJ-VIU-WILLCARD1
   type: trojan
   server: help.viu.com
@@ -145,7 +145,7 @@ proxies:
   ws-opts:
     path: /trojan
     headers:
-      Host: help.viu.com.dstb.cloud
+      Host: dstb.cloud
 - name: BSvrDO1_TJ-VIU-WILLCARD2
   type: trojan
   server: zaintest.vuclip.com
@@ -158,7 +158,7 @@ proxies:
   ws-opts:
     path: /trojan
     headers:
-      Host: zaintest.vuclip.com.dstb.cloud
+      Host: dstb.cloud
 - name: BSvrDO1_XCL-VIDIO_WILCARD1
   type: trojan
   server: quiz.int.vidio.com
@@ -171,7 +171,7 @@ proxies:
   ws-opts:
     path: /trojan
     headers:
-      Host: quiz.int.vidio.com.dstb.cloud
+      Host: dstb.cloud
 - name: BSvrDO1_XCL-VIDIO_WILCARD2
   type: trojan
   server: quiz.vidio.com
@@ -184,7 +184,7 @@ proxies:
   ws-opts:
     path: /trojan
     headers:
-      Host: quiz.vidio.com.dstb.cloud
+      Host: dstb.cloud
 - name: BSvrDO1_XCL-Vidio_IP1
   type: trojan
   server: 172.67.5.14
