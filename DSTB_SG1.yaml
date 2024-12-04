@@ -1,5 +1,5 @@
 proxies:
-- name: BSvrDO1_TJ-xcv-Bolak1
+- name: BSvrDO1_TJ-XCV-Bolak1
   type: trojan
   server: 104.17.3.81
   port: 443
@@ -12,7 +12,7 @@ proxies:
     path: /trojan
     headers:
       Host: dstb.cloud
-- name: BSvrDO1_TJ-xcv-Bolak2
+- name: BSvrDO1_TJ-XCV-Bolak2
   type: trojan
   server: 172.67.73.39
   port: 443
@@ -51,7 +51,7 @@ proxies:
     path: /trojan
     headers:
       Host: dstb.cloud
-- name: BSvrDO1_TJ-xcv-sni
+- name: BSvrDO1_TJ-XCV-SNI
   type: trojan
   server: dstb.cloud
   port: 443
@@ -64,20 +64,7 @@ proxies:
     path: /trojan
     headers:
       Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: Trojan-VIU-CDN--Aryo-WILCARD
-  type: trojan
-  server: zaintest.vuclip.com
-  port: 443
-  password: aryoyoutube
-  udp: true
-  sni: zaintest.vuclip.com.trsg.aryobrokolly.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: "/trojan"
-    headers:
-      Host: trsg.aryobrokolly.my.id
-- name: Viu-SG1-Aryo-WILCARD
+- name: Viu-SG1-Aryo-Vless-WILCARD1
   type: vless
   server: zaintest.vuclip.com
   port: 443
@@ -85,13 +72,13 @@ proxies:
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: zaintest.vuclip.com.sgdo.aryobrokolly.my.id
+  servername: zaintest.sgdo.aryobrokolly.my.id
   network: ws
   ws-opts:
     path: "/aryo"
     headers:
       Host: sgdo.aryobrokolly.my.id
-- name: Viu-SG2-Aryo-WILCARD
+- name: Viu-SG2-Aryo-Vless-WILCARD2
   type: vless
   server: zaintest.vuclip.com
   port: 443
@@ -99,13 +86,13 @@ proxies:
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: zaintest.vuclip.com.sgdo.aryobrokolly.my.id
+  servername: zaintest.sgdo.aryobrokolly.my.id
   network: ws
   ws-opts:
     path: "/aryo"
     headers:
       Host: sgdo.aryobrokolly.my.id
-- name: Viu-SG3-Aryo-WILCARD
+- name: Viu-SG3-Aryo-Vless-WILCARD3
   type: vless
   server: zaintest.vuclip.com
   port: 443
@@ -113,7 +100,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: zaintest.vuclip.com.sg2.aryobrokolly.my.id
+  servername: zaintest.sg2.aryobrokolly.my.id
   network: ws
   ws-opts:
     path: "/aryo"
@@ -127,7 +114,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: quiz.int.vidio.com.aryobrokolly.my.id
+  servername: quiz.int.aryobrokolly.my.id
   network: ws
   ws-opts:
     path: "/aryo"
@@ -135,35 +122,7 @@ proxies:
       Host: aryobrokolly.my.id
 - name: VIDIO-SG-Aryo-WILCARD2
   type: vless
-  server: quiz.int.vidio.com
-  port: 443
-  uuid: a36bf8ae-076d-4be8-8f14-ed62b63d98c2
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: quiz.int.vidio.com.aryobrokolly.my.id
-  network: ws
-  ws-opts:
-    path: "/aryo"
-    headers:
-      Host: quiz.int.vidio.com.aryobrokolly.my.id
-- name: VIDIO-SG-Aryo-WILCARD3
-  type: vless
-  server: quiz.int.vidio.com
-  port: 443
-  uuid: a36bf8ae-076d-4be8-8f14-ed62b63d98c2
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: quiz.aryobrokolly.my.id
-  network: ws
-  ws-opts:
-    path: "/aryo"
-    headers:
-      Host: quiz.aryobrokolly.my.id
-- name: VIDIO-SG-Aryo-WILCARD4
-  type: vless
-  server: quiz.int.vidio.com
+  server: quiz.vidio.com
   port: 443
   uuid: a36bf8ae-076d-4be8-8f14-ed62b63d98c2
   udp: true
@@ -181,7 +140,7 @@ proxies:
   port: 443
   password: ab3b5db8-4cbb-4136-8f55-44752f27134a
   udp: true
-  sni: help.viu.com.dstb.cloud
+  sni: help.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -194,7 +153,7 @@ proxies:
   port: 443
   password: ab3b5db8-4cbb-4136-8f55-44752f27134a
   udp: true
-  sni: zaintest.vuclip.com.dstb.cloud
+  sni: zaintest.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -207,7 +166,7 @@ proxies:
   port: 443
   password: ab3b5db8-4cbb-4136-8f55-44752f27134a
   udp: true
-  sni: quiz.int.vidio.com.dstb.cloud
+  sni: quiz.int.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -220,7 +179,7 @@ proxies:
   port: 443
   password: ab3b5db8-4cbb-4136-8f55-44752f27134a
   udp: true
-  sni: quiz.vidio.com.dstb.cloud
+  sni: quiz.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
