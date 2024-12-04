@@ -134,6 +134,20 @@ proxies:
     path: "/aryo"
     headers:
       Host: aryobrokolly.my.id
+- name: VIDIO-SG-Aryo-WILCARD3
+  type: vless
+  server: quiz.int.vidio.com
+  port: 443
+  uuid: a36bf8ae-076d-4be8-8f14-ed62b63d98c2
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: quiz.int.vidio.com.aryobrokolly.my.id
+  network: ws
+  ws-opts:
+    path: "/aryo"
+    headers:
+      Host: quiz.int.vidio.com.aryobrokolly.my.id
 - name: BSvrDO1_TJ-VIU-WILLCARD1
   type: trojan
   server: help.viu.com
