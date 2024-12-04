@@ -118,6 +118,19 @@ proxies:
       Host: dstb.cloud
 - name: BSvrDO1_TJ-XCP_VIU-Bolak2
   type: trojan
+  server: viu.zendesk.com
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: BSvrDO1_TJ-XCP_VIU-Bolak3
+  type: trojan
   server: zaintest.vuclip.com
   port: 443
   password: ab3b5db8-4cbb-4136-8f55-44752f27134a
