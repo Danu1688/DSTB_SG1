@@ -155,6 +155,32 @@ proxies:
     path: /trojan
     headers:
       Host: dstb.cloud
+- name: BSvrDO1_TJ-VIU-WILLCARD1
+  type: trojan
+  server: help.viu.com
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: help.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
+- name: BSvrDO1_TJ-VIU-WILLCARD2
+  type: trojan
+  server: zaintest.vuclip.com
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: zaintest.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: dstb.cloud
 - name: BSvrDO1_XCL-VIDIO_Pointing1
   type: trojan
   server: quiz.int.vidio.com
