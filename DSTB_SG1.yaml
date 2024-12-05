@@ -114,7 +114,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: quiz.int.aryobrokolly.my.id
+  servername: quiz.aryobrokolly.my.id
   network: ws
   ws-opts:
     path: "/aryo"
