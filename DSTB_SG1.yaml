@@ -99,7 +99,7 @@ proxies:
       Host: dstb.cloud
 - name: BVIDIO-SvrDO-Vless-WILCARD3
   type: vless
-  server: quiz.int.vidio.com
+  server: quiz.vidio.com
   port: 443
   uuid: d7c54af8-8aec-4e12-ade7-8424da3b20ff
   udp: true
@@ -110,7 +110,7 @@ proxies:
   ws-opts:
     path: /vless
     headers:
-      Host: dstb.cloud
+      Host: quiz.dstb.cloud
 - name: BVIDIO-SvrDO-Vless-WILCARD4
   type: vless
   server: quiz.vidio.com
