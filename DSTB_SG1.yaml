@@ -1,5 +1,5 @@
 proxies:
-- name: BVIDIO-SvrDO-Vless-WILCARD
+- name: BVIDIO-SvrDO-Vless-WILCARD1
   type: vless
   server: quiz.int.vidio.com
   port: 443
@@ -13,6 +13,48 @@ proxies:
     path: /vless
     headers:
       Host: quiz.int.vidio.com.dstb.cloud
+- name: BVIDIO-SvrDO-Vless-WILCARD2
+  type: vless
+  server: quiz.int.vidio.com
+  port: 443
+  uuid: d7c54af8-8aec-4e12-ade7-8424da3b20ff
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: quiz.int.vidio.com.dstb.cloud
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: dstb.cloud
+- name: BVIDIO-SvrDO-Vless-WILCARD3
+  type: vless
+  server: quiz.int.vidio.com
+  port: 443
+  uuid: d7c54af8-8aec-4e12-ade7-8424da3b20ff
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: quiz.dstb.cloud
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: quiz.com.dstb.cloud
+- name: BVIDIO-SvrDO-Vless-WILCARD4
+  type: vless
+  server: quiz.int.vidio.com
+  port: 443
+  uuid: d7c54af8-8aec-4e12-ade7-8424da3b20ff
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: quiz.dstb.cloud
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: dstb.cloud
 - name: BXCV-SG-Aryo-WILCARD
   type: vless
   server: support.zoom.us
