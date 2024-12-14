@@ -1,4 +1,18 @@
 proxies:
+- name: XCV-SG-Aryo-WILCARD
+  type: vless
+  server: support.zoom.us
+  port: 443
+  uuid: a36bf8ae-076d-4be8-8f14-ed62b63d98c2
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: support.zoom.us.aryobrokolly.my.id
+  network: ws
+  ws-opts:
+    path: "/aryo"
+    headers:
+      Host: support.zoom.us.aryobrokolly.my.id
 - name: BSvrDO1_TJ-XCV-Bolak1
   type: trojan
   server: 104.17.3.81
