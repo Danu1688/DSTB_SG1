@@ -1,4 +1,74 @@
 proxies:
+- name: BXCV-SvrDO-Vless-Bolak1
+  type: vless
+  server: 104.17.3.81
+  port: 443
+  uuid: d7c54af8-8aec-4e12-ade7-8424da3b20ff
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: dstb.cloud
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: dstb.cloud
+- name: BXCV-SvrDO-Vless-Bolak2
+  type: vless
+  server: 172.67.73.39
+  port: 443
+  uuid: d7c54af8-8aec-4e12-ade7-8424da3b20ff
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: dstb.cloud
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: dstb.cloud
+- name: BXCV-SvrDO-Vless-WILCARD1
+  type: vless
+  server: support.zoom.us
+  port: 443
+  uuid: d7c54af8-8aec-4e12-ade7-8424da3b20ff
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: support.zoom.us.dstb.cloud
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: support.zoom.us.dstb.cloud
+- name: BXCV-SvrDO-Vless-WILCARD2
+  type: vless
+  server: support.zoom.us
+  port: 443
+  uuid: d7c54af8-8aec-4e12-ade7-8424da3b20ff
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: zoomgov.dstb.cloud
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: zoomgov.dstb.cloud
+- name: BXCV-SvrDO-Vless-WILCARD3
+  type: vless
+  server: support.zoom.us
+  port: 443
+  uuid: d7c54af8-8aec-4e12-ade7-8424da3b20ff
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: zoomgov.dstb.cloud
+  network: ws
+  ws-opts:
+    path: /vless
+    headers:
+      Host: dstb.cloud
 - name: BVIDIO-SvrDO-Vless-WILCARD1
   type: vless
   server: quiz.int.vidio.com
@@ -21,7 +91,7 @@ proxies:
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: quiz.int.vidio.com.dstb.cloud
+  servername: quiz.int.dstb.cloud
   network: ws
   ws-opts:
     path: /vless
@@ -40,10 +110,10 @@ proxies:
   ws-opts:
     path: /vless
     headers:
-      Host: quiz.com.dstb.cloud
+      Host: dstb.cloud
 - name: BVIDIO-SvrDO-Vless-WILCARD4
   type: vless
-  server: quiz.int.vidio.com
+  server: quiz.vidio.com
   port: 443
   uuid: d7c54af8-8aec-4e12-ade7-8424da3b20ff
   udp: true
@@ -55,7 +125,7 @@ proxies:
     path: /vless
     headers:
       Host: dstb.cloud
-- name: BXCV-SG-Aryo-WILCARD
+- name: BXCV-SG-Aryo-WILCARD1
   type: vless
   server: support.zoom.us
   port: 443
@@ -69,6 +139,20 @@ proxies:
     path: "/aryo"
     headers:
       Host: support.zoom.us.aryobrokolly.my.id
+- name: BXCV-SG-Aryo-WILCARD2
+  type: vless
+  server: support.zoom.us
+  port: 443
+  uuid: a36bf8ae-076d-4be8-8f14-ed62b63d98c2
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: zoomgov.aryobrokolly.my.id
+  network: ws
+  ws-opts:
+    path: "/aryo"
+    headers:
+      Host: aryobrokolly.my.id
 - name: BSvrDO1_TJ-XCV-Bolak1
   type: trojan
   server: 104.17.3.81
