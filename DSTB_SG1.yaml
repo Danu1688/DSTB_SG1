@@ -1,4 +1,30 @@
 proxies:
+- name: BSvrHowdy_XCV-WILLCARD
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: bd100680-bba6-11ef-9dcd-1239d0255272
+  udp: true
+  sni: zoomgov.socifiles.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg3.socifiles.com
+- name: BSvrHowdy_Vidio-WILLCARD
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: bd100680-bba6-11ef-9dcd-1239d0255272
+  udp: true
+  sni: quiz.socifiles.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: sg3.socifiles.com
 - name: BSvrDO1_TJ-XCV-Bolak1
   type: trojan
   server: 104.17.3.81
