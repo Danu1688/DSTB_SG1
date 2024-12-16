@@ -1,4 +1,30 @@
 proxies:
+- name: BSvrHowdy_XCV-SNI
+  type: trojan
+  server: sg3.socifiles.com
+  port: 443
+  password: bd100680-bba6-11ef-9dcd-1239d0255272
+  udp: true
+  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+- name: BSvrHowdy_Vidio-SNI
+  type: trojan
+  server: sg3.socifiles.com
+  port: 443
+  password: bd100680-bba6-11ef-9dcd-1239d0255272
+  udp: true
+  sni: quiz.int.vidio.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: quiz.int.vidio.com
 - name: BSvrHowdy_XCV-WILLCARD
   type: trojan
   server: support.zoom.us
