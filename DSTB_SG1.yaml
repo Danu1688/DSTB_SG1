@@ -1,4 +1,82 @@
 proxies:
+- name: BSvrDo_VMESS_XCV-SNI
+  type: vmess
+  server: dstb.cloud
+  port: 443
+  password: 030efcba-ee61-4288-a4b1-afaf11cdcb78
+  udp: true
+  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+- name: BSvrDo_VMESS_Vidio-SNI
+  type: vmess
+  server: dstb.cloud
+  port: 443
+  password: 030efcba-ee61-4288-a4b1-afaf11cdcb78
+  udp: true
+  sni: quiz.int.vidio.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: quiz.int.vidio.com
+- name: BSvrDo_VMESS_XCV-WC
+  type: vmess
+  server: support.zoom.us
+  port: 443
+  password: 030efcba-ee61-4288-a4b1-afaf11cdcb78
+  udp: true
+  sni: zoomgov.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: dstb.cloud
+- name: BSvrDo_VMESS_Vidio-WC1
+  type: vmess
+  server: quiz.int.vidio.com
+  port: 443
+  password: 030efcba-ee61-4288-a4b1-afaf11cdcb78
+  udp: true
+  sni: quiz.int.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: dstb.cloud
+- name: BSvrDo_VMESS_Vidio-WC2
+  type: vmess
+  server: quiz.int.vidio.com
+  port: 443
+  password: 030efcba-ee61-4288-a4b1-afaf11cdcb78
+  udp: true
+  sni: quiz.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: dstb.cloud
+- name: BSvrDo_VMESS_Vidio-WC3
+  type: vmess
+  server: quiz.vidio.com
+  port: 443
+  password: 030efcba-ee61-4288-a4b1-afaf11cdcb78
+  udp: true
+  sni: quiz.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: dstb.cloud
 - name: BSvrHowdy_XCV-SNI
   type: trojan
   server: sg3.socifiles.com
