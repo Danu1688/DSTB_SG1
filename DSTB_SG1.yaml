@@ -1126,6 +1126,22 @@ proxies:
     path: /vmess-ws
     headers:
       Host: quiz.int.vidio.com
+- name: BSvrNS2_VLESS_XCV-SNI
+  type: vless
+  server: nusa2.dstb.cloud
+  port: 443
+  uuid: 1c823364-d8a4-43ba-a773-e2289c9a3a92
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  network: ws
+  ws-opts:
+    path: /vless-ws
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
 - name: BsvrNS2_TJTCP_XCV_SNI
   type: trojan
   server: nusa2.dstb.cloud
