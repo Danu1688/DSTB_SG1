@@ -1,5 +1,5 @@
 proxies:
-- name: BSvrDo_TLS_XCV-SNI
+- name: BSvrDo1_TLS_XCV-SNI
   type: vmess
   server: dstb.cloud
   port: 443
@@ -15,7 +15,7 @@ proxies:
     path: /vmess
     headers:
       Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: BSvrDo_TLS_VIDIO-SNI
+- name: BSvrDo1_TLS_VIDIO-SNI
   type: vmess
   server: dstb.cloud
   port: 443
@@ -31,7 +31,7 @@ proxies:
     path: /vmess
     headers:
       Host: quiz.int.vidio.com
-- name: BSvrDo_NTLS_XCV-SNI
+- name: BSvrDo1_NTLS_XCV-SNI
   type: vmess
   server: dstb.cloud
   port: 80
@@ -47,7 +47,7 @@ proxies:
     path: /vmess
     headers:
       Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: BSvrDo_NTLS_VIDIO-SNI
+- name: BSvrDo1_NTLS_VIDIO-SNI
   type: vmess
   server: dstb.cloud
   port: 80
@@ -532,7 +532,7 @@ proxies:
     path: /trojan
     headers:
       Host: dstb.cloud
-- name: BSvrNusa1_TLS_XCV-SNI
+- name: BSvrNS1_TLS_XCV-SNI
   type: vmess
   server: nusa1.dstb.cloud
   port: 443
@@ -548,7 +548,7 @@ proxies:
     path: /vmess-ws
     headers:
       Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: BSvrNusa1_TLS_VIDIO-SNI
+- name: BSvrNS1_TLS_VIDIO-SNI
   type: vmess
   server: nusa1.dstb.cloud
   port: 443
@@ -564,7 +564,7 @@ proxies:
     path: /vmess-ws
     headers:
       Host: quiz.int.vidio.com
-- name: BSvrNusa1_NTLS_XCV-SNI
+- name: BSvrNS1_NTLS_XCV-SNI
   type: vmess
   server: nusa1.dstb.cloud
   port: 80
@@ -580,7 +580,7 @@ proxies:
     path: /vmess-ws
     headers:
       Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: BSvrNusa1_NTLS_VIDIO-SNI
+- name: BSvrNS1_NTLS_VIDIO-SNI
   type: vmess
   server: nusa1.dstb.cloud
   port: 80
@@ -1012,7 +1012,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa1.dstb.cloud
-- name: BSvrNusa2_TLS_XCV-SNI
+- name: BSvrNS2_TLS_XCV-SNI
   type: vmess
   server: nusa2.dstb.cloud
   port: 443
@@ -1028,7 +1028,7 @@ proxies:
     path: /vmess-ws
     headers:
       Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: BSvrNusa2_TLS_VIDIO-SNI
+- name: BSvrNS2_TLS_VIDIO-SNI
   type: vmess
   server: nusa2.dstb.cloud
   port: 443
@@ -1044,7 +1044,7 @@ proxies:
     path: /vmess-ws
     headers:
       Host: quiz.int.vidio.com
-- name: BSvrNusa2_NTLS_XCV-SNI
+- name: BSvrNS2_NTLS_XCV-SNI
   type: vmess
   server: nusa2.dstb.cloud
   port: 80
@@ -1060,7 +1060,7 @@ proxies:
     path: /vmess-ws
     headers:
       Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: BSvrNusa2_NTLS_VIDIO-SNI
+- name: BSvrNS2_NTLS_VIDIO-SNI
   type: vmess
   server: nusa2.dstb.cloud
   port: 80
