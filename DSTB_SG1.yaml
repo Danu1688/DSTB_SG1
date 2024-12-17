@@ -1,5 +1,5 @@
 proxies:
-- name: BSvrDo_VMESS_XCV-SNI
+- name: BSvrDo_TLS_XCV-SNI
   type: vmess
   server: dstb.cloud
   port: 443
@@ -15,7 +15,7 @@ proxies:
     path: /vmess
     headers:
       Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: BSvrDo_VMESS_VIDIO-SNI
+- name: BSvrDo_TLS_VIDIO-SNI
   type: vmess
   server: dstb.cloud
   port: 443
@@ -25,6 +25,38 @@ proxies:
   udp: true
   skip-cert-verify: true
   tls: true
+  servername: quiz.int.vidio.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: quiz.int.vidio.com
+- name: BSvrDo_NTLS_XCV-SNI
+  type: vmess
+  server: dstb.cloud
+  port: 80
+  uuid: 030efcba-ee61-4288-a4b1-afaf11cdcb78
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  servername: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+- name: BSvrDo_NTLS_VIDIO-SNI
+  type: vmess
+  server: dstb.cloud
+  port: 80
+  uuid: 030efcba-ee61-4288-a4b1-afaf11cdcb78
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
   servername: quiz.int.vidio.com
   network: ws
   ws-opts:
