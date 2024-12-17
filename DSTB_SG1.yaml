@@ -596,7 +596,7 @@ proxies:
     path: /vmess-ws
     headers:
       Host: quiz.int.vidio.com
-- name: ASvrNS1_VLESS_XCV-SNI
+- name: BSvrNS1_VLESS_XCV-SNI
   type: vless
   server: nusa1.dstb.cloud
   port: 443
@@ -612,6 +612,14 @@ proxies:
     path: /vless-ws
     headers:
       Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+- name: BsvrNS1_TJTCP_XCV_SNI
+  type: trojan
+  server: nusa1.dstb.cloud
+  port: 443
+  password: 92a69f65-61ab-4950-94ba-56f1f58ab8b6
+  udp: true
+  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  skip-cert-verify: true
 - name: BSvrNS1_TJ-xcv-Bolak1
   type: trojan
   server: 104.17.3.81
@@ -1092,7 +1100,7 @@ proxies:
     path: /vmess-ws
     headers:
       Host: quiz.int.vidio.com
-- name: AsvrNS2_TJTCP_XCV_SNI
+- name: BsvrNS2_TJTCP_XCV_SNI
   type: trojan
   server: nusa2.dstb.cloud
   port: 443
@@ -1100,7 +1108,7 @@ proxies:
   udp: true
   sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
   skip-cert-verify: true
-- name: ASvrNS2_TJGO_XCV_CDN
+- name: BSvrNS2_TJGO_XCV_CDN
   server: support.zoom.us
   port: 8443
   type: trojan
@@ -1113,7 +1121,7 @@ proxies:
     path: /trojan-go
     headers:
         Host: nusa2.dstb.cloud
-- name: ASvrNS2_TJGO_XCV_SNI
+- name: BSvrNS2_TJGO_XCV_SNI
   server: nusa2.dstb.cloud
   port: 8443
   type: trojan
