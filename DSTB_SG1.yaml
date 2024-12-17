@@ -532,6 +532,70 @@ proxies:
     path: /trojan
     headers:
       Host: dstb.cloud
+- name: BSvrNusa1_TLS_XCV-SNI
+  type: vmess
+  server: nusa1.dstb.cloud
+  port: 443
+  uuid: 2ce41c1b-d366-4f99-9a26-8c2c6708e357
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  network: ws
+  ws-opts:
+    path: /vmess-ws
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+- name: BSvrNusa1_TLS_VIDIO-SNI
+  type: vmess
+  server: nusa1.dstb.cloud
+  port: 443
+  uuid: 2ce41c1b-d366-4f99-9a26-8c2c6708e357
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: quiz.int.vidio.com
+  network: ws
+  ws-opts:
+    path: /vmess-ws
+    headers:
+      Host: quiz.int.vidio.com
+- name: BSvrNusa1_NTLS_XCV-SNI
+  type: vmess
+  server: nusa1.dstb.cloud
+  port: 80
+  uuid: 2ce41c1b-d366-4f99-9a26-8c2c6708e357
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  servername: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  network: ws
+  ws-opts:
+    path: /vmess-ws
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+- name: BSvrNusa1_NTLS_VIDIO-SNI
+  type: vmess
+  server: nusa1.dstb.cloud
+  port: 80
+  uuid: 2ce41c1b-d366-4f99-9a26-8c2c6708e357
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  servername: quiz.int.vidio.com
+  network: ws
+  ws-opts:
+    path: /vmess-ws
+    headers:
+      Host: quiz.int.vidio.com
 - name: BSvrNS1_TJ-xcv-Bolak1
   type: trojan
   server: 104.17.3.81
@@ -948,6 +1012,70 @@ proxies:
     path: /trojan-ws
     headers:
       Host: nusa1.dstb.cloud
+- name: BSvrNusa2_TLS_XCV-SNI
+  type: vmess
+  server: nusa2.dstb.cloud
+  port: 443
+  uuid: ae71aed1-9248-49b0-ac31-e28ff4058a8d
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  network: ws
+  ws-opts:
+    path: /vmess-ws
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+- name: BSvrNusa2_TLS_VIDIO-SNI
+  type: vmess
+  server: nusa2.dstb.cloud
+  port: 443
+  uuid: ae71aed1-9248-49b0-ac31-e28ff4058a8d
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: quiz.int.vidio.com
+  network: ws
+  ws-opts:
+    path: /vmess-ws
+    headers:
+      Host: quiz.int.vidio.com
+- name: BSvrNusa2_NTLS_XCV-SNI
+  type: vmess
+  server: nusa2.dstb.cloud
+  port: 80
+  uuid: ae71aed1-9248-49b0-ac31-e28ff4058a8d
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  servername: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  network: ws
+  ws-opts:
+    path: /vmess-ws
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+- name: BSvrNusa2_NTLS_VIDIO-SNI
+  type: vmess
+  server: nusa2.dstb.cloud
+  port: 80
+  uuid: ae71aed1-9248-49b0-ac31-e28ff4058a8d
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  servername: quiz.int.vidio.com
+  network: ws
+  ws-opts:
+    path: /vmess-ws
+    headers:
+      Host: quiz.int.vidio.com
 - name: BSvrNS2_TJ-xcv-Bolak1
   type: trojan
   server: 104.17.3.81
