@@ -1,4 +1,17 @@
 proxies:
+- name: BSvrDo_VMESS_XCV-SNI
+  type: vmess
+  server: dstb.cloud
+  port: 443
+  password: 030efcba-ee61-4288-a4b1-afaf11cdcb78
+  udp: true
+  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
 - name: BSvrHowdy_XCV-SNI
   type: trojan
   server: sg3.socifiles.com
