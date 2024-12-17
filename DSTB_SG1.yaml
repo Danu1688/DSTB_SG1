@@ -620,6 +620,32 @@ proxies:
   udp: true
   sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
   skip-cert-verify: true
+- name: BSvrNS1_TJGO_XCV_CDN
+  server: support.zoom.us
+  port: 8443
+  type: trojan
+  password: svrnusa1_tjgo
+  network: ws
+  sni: zoomgov.dstb.cloud
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-go
+    headers:
+        Host: nusa1.dstb.cloud
+- name: BSvrNS1_TJGO_XCV_SNI
+  server: nusa1.dstb.cloud
+  port: 8443
+  type: trojan
+  password: svrnusa1_tjgo
+  network: ws
+  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-go
+    headers:
+        Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
 - name: BSvrNS1_TJ-xcv-Bolak1
   type: trojan
   server: 104.17.3.81
