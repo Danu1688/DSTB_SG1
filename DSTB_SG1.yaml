@@ -1,8 +1,8 @@
 proxies:
-- name: BSvrDo_VMESS_XCV-SNI
+- name: BSvrDo_VMESS_XCV-SNI1
   type: vmess
   server: dstb.cloud
-  port: 80
+  port: 443
   uuid: 030efcba-ee61-4288-a4b1-afaf11cdcb78
   alterId: 0
   cipher: auto
@@ -15,10 +15,10 @@ proxies:
     path: /vmess
     headers:
       Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: BSvrDo_VMESS_VIDIO-SNI
+- name: BSvrDo_VMESS_VIDIO-SNI1
   type: vmess
   server: dstb.cloud
-  port: 80
+  port: 443
   uuid: 030efcba-ee61-4288-a4b1-afaf11cdcb78
   alterId: 0
   cipher: auto
