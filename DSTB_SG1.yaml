@@ -1,14 +1,14 @@
 proxies:
-- name: BSvrDo_VMS_XCV-SNI2
+- name: BSvrDo_VMS_XCV-SNI1
   type: vmess
   server: dstb.cloud
-  port: 80
+  port: 443
   uuid: 030efcba-ee61-4288-a4b1-afaf11cdcb78
   alterId: 0
   cipher: auto
   udp: true
   skip-cert-verify: true
-  tls: false
+  tls: true
   servername: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
   network: ws
   ws-opts:
