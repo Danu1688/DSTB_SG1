@@ -1,17 +1,4 @@
 proxies:
-- name: BDstbDO1_TJ-XCV-CDN
-  type: trojan
-  server: 104.17.3.81
-  port: 443
-  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
-  udp: true
-  sni: sg1.nathaya.web.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.nathaya.web.id
 - name: BSvrDo1_TLS_XCV-SNI
   type: vmess
   server: sg1.dstb.my.id
@@ -1605,3 +1592,16 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.dstb.my.id
+- name: BDstbDO1_TJ-XCV-CDN
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
