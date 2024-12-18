@@ -147,7 +147,7 @@ proxies:
   port: 443
   password: ab3b5db8-4cbb-4136-8f55-44752f27134a
   udp: true
-  sni: zoomgov.sg1.dstb.my.id
+  sni: zoomgov.dstb.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -160,7 +160,7 @@ proxies:
   port: 443
   password: ab3b5db8-4cbb-4136-8f55-44752f27134a
   udp: true
-  sni: support.sg1.dstb.my.id
+  sni: support.dstb.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -200,7 +200,7 @@ proxies:
   port: 443
   password: ab3b5db8-4cbb-4136-8f55-44752f27134a
   udp: true
-  sni: help.sg1.dstb.my.id
+  sni: help.dstb.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -213,7 +213,7 @@ proxies:
   port: 443
   password: ab3b5db8-4cbb-4136-8f55-44752f27134a
   udp: true
-  sni: zaintest.sg1.dstb.my.id
+  sni: zaintest.dstb.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -226,7 +226,7 @@ proxies:
   port: 443
   password: ab3b5db8-4cbb-4136-8f55-44752f27134a
   udp: true
-  sni: quiz.sg1.dstb.my.id
+  sni: quiz.dstb.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -239,7 +239,7 @@ proxies:
   port: 443
   password: ab3b5db8-4cbb-4136-8f55-44752f27134a
   udp: true
-  sni: quiz.sg1.dstb.my.id
+  sni: quiz.dstb.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -678,7 +678,7 @@ proxies:
   port: 443
   password: d96a8c6c-4675-4edc-9033-225571a7f595
   udp: true
-  sni: zoomgov.id1.dstb.my.id
+  sni: zoomgov.dstb.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -691,7 +691,7 @@ proxies:
   port: 443
   password: d96a8c6c-4675-4edc-9033-225571a7f595
   udp: true
-  sni: zoomgov.id1.dstb.my.id
+  sni: zoomgov.dstb.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -756,7 +756,7 @@ proxies:
   port: 443
   password: d96a8c6c-4675-4edc-9033-225571a7f595
   udp: true
-  sni: quiz.id1.dstb.my.id
+  sni: quiz.dstb.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -769,7 +769,7 @@ proxies:
   port: 443
   password: d96a8c6c-4675-4edc-9033-225571a7f595
   udp: true
-  sni: quiz.id1.dstb.my.id
+  sni: quiz.dstb.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -1208,7 +1208,7 @@ proxies:
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: zoomgov.sg1.dstb.my.id
+  sni: zoomgov.dstb.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -1221,7 +1221,7 @@ proxies:
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: zoomgov.sg1.dstb.my.id
+  sni: zoomgov.dstb.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -1286,7 +1286,7 @@ proxies:
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: quiz.sg1.dstb.my.id
+  sni: quiz.dstb.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -1299,7 +1299,7 @@ proxies:
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: quiz.sg1.dstb.my.id
+  sni: quiz.dstb.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
