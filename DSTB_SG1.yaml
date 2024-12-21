@@ -1,4 +1,69 @@
 proxies:
+- name: B_TjDO1_TLS_XCV_CDN1
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: sg1.dstb.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.dstb.my.id
+- name: B_TjDO1_TLS_XCV_CDN2
+  type: trojan
+  server: 172.67.73.39
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: sg1.dstb.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.dstb.my.id
+- name: B_TjDO1_TLS_XCV_WC1
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: zoomgov.dstb.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.dstb.my.id
+- name: B_TjDO1_TLS_XCV_WC2
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: support.dstb.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.dstb.my.id
+- name: B_TjDO1_TLS_XCV_SNI
+  type: trojan
+  server: sg1.dstb.my.id
+  port: 443
+  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
+  udp: true
+  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
 - name: B_VmsDo1_TLS_XCV_CDN
   type: vmess
   server: 104.17.3.81
@@ -95,71 +160,6 @@ proxies:
     path: /vmess
     headers:
       Host: quiz.int.vidio.com
-- name: B_TjDO1_TLS_XCV_CDN1
-  type: trojan
-  server: 104.17.3.81
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.my.id
-- name: B_TjDO1_TLS_XCV_CDN2
-  type: trojan
-  server: 172.67.73.39
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.my.id
-- name: B_TjDO1_TLS_XCV_WC1
-  type: trojan
-  server: support.zoom.us
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: zoomgov.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.my.id
-- name: B_TjDO1_TLS_XCV_WC2
-  type: trojan
-  server: support.zoom.us
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: support.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.my.id
-- name: B_TjDO1_TLS_XCV_SNI
-  type: trojan
-  server: sg1.dstb.my.id
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
 - name: B_TjDO1_TLS_VIU_WC1
   type: trojan
   server: help.viu.com
@@ -498,6 +498,58 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.dstb.my.id
+- name: B_TjNS1_TLS_XCV_CDN1
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
+  udp: true
+  sni: id1.dstb.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id1.dstb.my.id
+- name: B_TjNS1_TLS_XCV_CDN2
+  type: trojan
+  server: 172.67.73.39
+  port: 443
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
+  udp: true
+  sni: id1.dstb.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id1.dstb.my.id
+- name: B_TjNS1_TLS_XCV_WC
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
+  udp: true
+  sni: zoomgov.dstb.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id1.dstb.my.id
+- name: B_TjNS1_TLS_XCV_SNI
+  type: trojan
+  server: id1.dstb.my.id
+  port: 443
+  password: d96a8c6c-4675-4edc-9033-225571a7f595
+  udp: true
+  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
 - name: B_VmsNS1_TLS_XCV_CDN
   type: vmess
   server: 104.17.3.81
@@ -689,58 +741,6 @@ proxies:
     path: /trojan-go
     headers:
         Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: B_TjNS1_TLS_XCV_CDN1
-  type: trojan
-  server: 104.17.3.81
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_XCV_CDN2
-  type: trojan
-  server: 172.67.73.39
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_XCV_WC
-  type: trojan
-  server: support.zoom.us
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: zoomgov.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_XCV_SNI
-  type: trojan
-  server: id1.dstb.my.id
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
 - name: B_TjNS1_TLS_VIU_CDN1
   type: trojan
   server: zaintest.vuclip.com
@@ -1079,6 +1079,58 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id1.dstb.my.id
+- name: B_TjNS2_TLS_XCV_CDN1
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  udp: true
+  sni: id2.dstb.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id2.dstb.my.id
+- name: B_TjNS2_TLS_XCV_CDN2
+  type: trojan
+  server: 172.67.73.39
+  port: 443
+  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  udp: true
+  sni: id2.dstb.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id2.dstb.my.id
+- name: B_TjNS2_TLS_XCV_WC
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  udp: true
+  sni: zoomgov.dstb.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: id2.dstb.my.id
+- name: B_TjNS2_TLS_XCV_SNI
+  type: trojan
+  server: id2.dstb.my.id
+  port: 443
+  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
+  udp: true
+  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
 - name: B_VmsNS2_TLS_XCV_CDN
   type: vmess
   server: 104.17.3.81
@@ -1270,58 +1322,6 @@ proxies:
     path: /trojan-go
     headers:
         Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: B_TjNS2_TLS_XCV_CDN1
-  type: trojan
-  server: 104.17.3.81
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.dstb.my.id
-- name: B_TjNS2_TLS_XCV_CDN2
-  type: trojan
-  server: 172.67.73.39
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.dstb.my.id
-- name: B_TjNS2_TLS_XCV_WC
-  type: trojan
-  server: support.zoom.us
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: zoomgov.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.dstb.my.id
-- name: B_TjNS2_TLS_XCV_SNI
-  type: trojan
-  server: id2.dstb.my.id
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
 - name: B_TjNS2_TLS_VIU_CDN1
   type: trojan
   server: zaintest.vuclip.com
