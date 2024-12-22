@@ -1098,42 +1098,42 @@ proxies:
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_XCV_CDN2
   type: trojan
   server: 172.67.73.39
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_XCV_WC
   type: trojan
   server: support.zoom.us
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: zoomgov.dstb.my.id
+  sni: zoomgov.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_XCV_SNI
   type: trojan
-  server: id2.dstb.my.id
+  server: id2.rumah1.cloud
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
@@ -1154,12 +1154,12 @@ proxies:
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: id2.dstb.my.id
+  servername: id2.rumah1.cloud
   network: ws
   ws-opts:
     path: /vmess-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_VmsNS2_TLS_XCV_WC
   type: vmess
   server: support.zoom.us
@@ -1170,15 +1170,15 @@ proxies:
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: zoomgov.dstb.my.id
+  servername: zoomgov.rumah1.cloud
   network: ws
   ws-opts:
     path: /vmess-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_VmsNS2_TLS_XCV_SNI
   type: vmess
-  server: id2.dstb.my.id
+  server: id2.rumah1.cloud
   port: 443
   uuid: ae71aed1-9248-49b0-ac31-e28ff4058a8d
   alterId: 0
@@ -1194,7 +1194,7 @@ proxies:
       Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
 - name: B_VmsNS2_TLS_VIDIO_SNI
   type: vmess
-  server: id2.dstb.my.id
+  server: id2.rumah1.cloud
   port: 443
   uuid: ae71aed1-9248-49b0-ac31-e28ff4058a8d
   alterId: 0
@@ -1210,7 +1210,7 @@ proxies:
       Host: quiz.int.vidio.com
 - name: B_VmsNS2_NTLS_XCV_SNI
   type: vmess
-  server: id2.dstb.my.id
+  server: id2.rumah1.cloud
   port: 80
   uuid: ae71aed1-9248-49b0-ac31-e28ff4058a8d
   alterId: 0
@@ -1226,7 +1226,7 @@ proxies:
       Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
 - name: B_VmsNS2_NTLS_VIDIO_SNI
   type: vmess
-  server: id2.dstb.my.id
+  server: id2.rumah1.cloud
   port: 80
   uuid: ae71aed1-9248-49b0-ac31-e28ff4058a8d
   alterId: 0
@@ -1250,12 +1250,12 @@ proxies:
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: id2.dstb.my.id
+  servername: id2.rumah1.cloud
   network: ws
   ws-opts:
     path: /vless-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_VlsNS2_TLS_XCV_WC
   type: vless
   server: support.zoom.us
@@ -1266,15 +1266,15 @@ proxies:
   udp: true
   skip-cert-verify: true
   tls: true
-  servername: zoomgov.dstb.my.id
+  servername: zoomgov.rumah1.cloud
   network: ws
   ws-opts:
     path: /vless-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_VlsNS2_TLS_XCV_SNI
   type: vless
-  server: id2.dstb.my.id
+  server: id2.rumah1.cloud
   port: 443
   uuid: 1c823364-d8a4-43ba-a773-e2289c9a3a92
   alterId: 0
@@ -1290,7 +1290,7 @@ proxies:
       Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
 - name: B_TjTcpNS2_TLS_XCV_SNI
   type: trojan
-  server: id2.dstb.my.id
+  server: id2.rumah1.cloud
   port: 443
   password: b00a8880-9e0b-4595-9894-76c011637d97
   udp: true
@@ -1302,28 +1302,28 @@ proxies:
   type: trojan
   password: svrnusa2_tjgo
   network: ws
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   udp: true
   ws-opts:
     path: /trojan-go
     headers:
-        Host: id2.dstb.my.id
+        Host: id2.rumah1.cloud
 - name: B_TjGoNS2_TLS_XCV_WC
   server: support.zoom.us
   port: 8443
   type: trojan
   password: svrnusa2_tjgo
   network: ws
-  sni: zoomgov.dstb.my.id
+  sni: zoomgov.rumah1.cloud
   skip-cert-verify: true
   udp: true
   ws-opts:
     path: /trojan-go
     headers:
-        Host: id2.dstb.my.id
+        Host: id2.rumah1.cloud
 - name: B_TjGoNS2_TLS_XCV_SNI
-  server: id2.dstb.my.id
+  server: id2.rumah1.cloud
   port: 8443
   type: trojan
   password: svrnusa2_tjgo
@@ -1341,335 +1341,335 @@ proxies:
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_VIU_CDN2
   type: trojan
   server: help.viu.com
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_VIDIO_WC1
   type: trojan
   server: quiz.int.vidio.com
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: quiz.dstb.my.id
+  sni: quiz.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_VIDIO_WC2
   type: trojan
   server: quiz.vidio.com
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: quiz.dstb.my.id
+  sni: quiz.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_VIDIO_IP1
   type: trojan
   server: 172.67.5.14
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_VIDIO_IP2
   type: trojan
   server: 104.22.5.240
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_VIDIO_IP3
   type: trojan
   server: 104.22.4.240
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_VIDIO_H1
   type: trojan
   server: quiz.vidio.com
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_VIDIO_H2
   type: trojan
   server: quiz.int.vidio.com
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_VIDIO_H3
   type: trojan
   server: quiz.staging.vidio.com
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_ZOOM_H1
   type: trojan
   server: gomarketplacefront-cf.zoom.us
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_ZOOM_H2
   type: trojan
   server: marketplacefront-cf.zoom.us
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_ZOOM_H3
   type: trojan
   server: gomarketplacecontent-cf.zoom.us
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_GameFF_H1
   type: trojan
   server: ava.game.naver.com
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_GameFF_H2
   type: trojan
   server: df.game.naver.com
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_GameFF_H3
   type: trojan
   server: care.pmang.game.naver.com
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_GameFF_H4
   type: trojan
   server: account.pmang.game.naver.com
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_Gopay_H1
   type: trojan
   server: app-stg.gopay.co.id
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id	  
+      Host: id2.rumah1.cloud	  
 - name: B_TjNS2_TLS_XCL_IP1
   type: trojan
   server: 104.16.125.59
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_XCL_IP2
   type: trojan
   server: 104.16.126.59
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_XCL_IP3
   type: trojan
   server: 104.18.214.235
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_XCL_IP4
   type: trojan
   server: 104.18.213.235
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_XCL_IP5
   type: trojan
   server: 162.159.140.158
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_XCL_IP6
   type: trojan
   server: 104.18.3.96
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_XCL_IP7
   type: trojan
   server: 104.18.2.96
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_Opok50Mb_H1
   type: trojan
   server: pay.ovo.id
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: id2.dstb.my.id
+  sni: id2.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: id2.dstb.my.id
+      Host: id2.rumah1.cloud
