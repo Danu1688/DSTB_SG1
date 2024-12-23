@@ -57,7 +57,7 @@ proxies:
   port: 443
   password: ab3b5db8-4cbb-4136-8f55-44752f27134a
   udp: true
-  sni: support.dstb.my.id
+  sni: support.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
