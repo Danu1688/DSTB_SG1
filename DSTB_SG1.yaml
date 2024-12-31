@@ -12,6 +12,19 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
+- name: B_DstbDO1_TJ-XCV-SNI
+  type: trojan
+  server: sg1.nathaya.web.id
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
 - name: B_TjDO1_TLS_XCV_CDN1
   type: trojan
   server: 104.17.3.81
@@ -1686,3 +1699,16 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
+- name: B_DstbDO1_TJ-XCV-SNI
+  type: trojan
+  server: sg1.nathaya.web.id
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
