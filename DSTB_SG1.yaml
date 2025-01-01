@@ -1,5 +1,5 @@
 proxies:
-- name: B_DstbDO1_TJ-XCV-CDN
+- name: B_DstbDO1_TJ-XCV-CDN1
   type: trojan
   server: 104.17.3.81
   port: 443
@@ -12,19 +12,45 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
-- name: B_DstbDO1_TJ-XCV-SNI
+- name: B_DstbDO1_TJ-XCV-CDN2
   type: trojan
-  server: sg1.nathaya.web.id
+  server: 172.67.73.39
   port: 443
   password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
   udp: true
-  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  sni: sg1.nathaya.web.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+      Host: sg1.nathaya.web.id
+- name: B_DstbDO1_TJ-XCV-WC1
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: zoomgov.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbDO1_TJ-XCV-WC2
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: support.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
 - name: B_TjDO1_TLS_XCV_CDN1
   type: trojan
   server: 104.17.3.81
@@ -1686,7 +1712,7 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id2.rumah1.cloud
-- name: B_DstbDO2_TJ-XCV-CDN
+- name: B_DstbDO1_TJ-XCV-CDN1A
   type: trojan
   server: 104.17.3.81
   port: 443
@@ -1699,16 +1725,42 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
-- name: B_DstbDO1_TJ-XCV-SNI
+- name: B_DstbDO1_TJ-XCV-CDN2A
   type: trojan
-  server: sg1.nathaya.web.id
+  server: 172.67.73.39
   port: 443
   password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
   udp: true
-  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  sni: sg1.nathaya.web.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+      Host: sg1.nathaya.web.id
+- name: B_DstbDO1_TJ-XCV-WC1A
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: zoomgov.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbDO1_TJ-XCV-WC2A
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: support.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
