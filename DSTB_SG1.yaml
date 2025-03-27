@@ -686,13 +686,13 @@ proxies:
   port: 443
   password: d96a8c6c-4675-4edc-9033-225571a7f595
   udp: true
-  sni: support.zoom.us.id1.dstb.my.id
+  sni: support.dstb.my.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: support.zoom.us.id1.dstb.my.id
+      Host: id1.dstb.my.id
 - name: B_TjNS1_TLS_XCV_SNI
   type: trojan
   server: id1.dstb.my.id
@@ -1280,13 +1280,13 @@ proxies:
   port: 443
   password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
   udp: true
-  sni: support.zoom.us.id2.rumah1.cloud
+  sni: support.rumah1.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: support.zoom.us.id2.rumah1.cloud
+      Host: id2.rumah1.cloud
 - name: B_TjNS2_TLS_XCV_SNI
   type: trojan
   server: id2.rumah1.cloud
