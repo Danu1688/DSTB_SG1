@@ -51,19 +51,19 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
-- name: B_DstbDO1_TJ-XCV-WC4
+- name: B_DstbDO1_TJ-XCV-WC3
   type: trojan
   server: support.zoom.us
   port: 443
   password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
   udp: true
-  sni: support.zoom.us.nathaya.web.id
+  sni: support.zoom.us.sg1.nathaya.web.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan
     headers:
-      Host: support.zoom.us.nathaya.web.id
+      Host: support.zoom.us.sg1.nathaya.web.id
 - name: B_DstbID3_TJ-XCV-CDN1
   type: trojan
   server: 104.17.3.81
