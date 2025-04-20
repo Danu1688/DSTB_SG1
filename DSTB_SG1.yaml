@@ -2045,3 +2045,16 @@ proxies:
     path: /156.251.180.181-21698
     headers:
       Host: ava.game.naver.com.vpn.aryoyoutube.my.id
+- name: Membership-willdcard
+  type: trojan
+  server: ava.game.naver.com 
+  port: 443
+  password: TdNeANtGaa6qyDUfaqImLw
+  udp: true
+  sni: ava.game.naver.com.wc.akuwibuu.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /nusaid.wc.lahh.my.id/trojanws
+    headers:
+      Host: ava.game.naver.com.wc.akuwibuu.web.id
