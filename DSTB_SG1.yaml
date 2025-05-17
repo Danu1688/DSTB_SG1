@@ -2032,7 +2032,7 @@ proxies:
     path: /vless-ws
     headers:
       Host: ava.game.naver.com.id1.dstb.my.id
-- name: TrojanPROXY-LIMITED
+- name: B_DstbDO1_TrojanPROXY-LIMITED
   type: trojan
   server: ava.game.naver.com
   port: 443
@@ -2045,7 +2045,7 @@ proxies:
     path: /trojan
     headers:
       Host: ava.game.naver.com.sg1.nathaya.web.id
-- name: Membership-willdcard
+- name: B_DstbDO1_Membership-willdcard
   type: trojan
   server: ava.game.naver.com 
   port: 443
