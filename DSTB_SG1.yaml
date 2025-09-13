@@ -282,7 +282,7 @@ proxies:
   port: 443
   password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
   udp: true
-  sni: zoomgov.dstb.cloud
+  sni: zoomgov.nathaya.web.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -295,7 +295,7 @@ proxies:
   port: 443
   password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
   udp: true
-  sni: support.dstb.cloud
+  sni: support.nathaya.web.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -315,3 +315,4 @@ proxies:
     path: /trojan
     headers:
       Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+
