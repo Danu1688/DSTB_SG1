@@ -129,7 +129,6 @@ proxies:
     path: /trojan
     headers:
       Host: support.zoom.us.sg1.nathaya.web.id
-#============= TRIK SNI======================
 - name: B_DstbSG1_SNI-INSTAGRAM
   type: trojan
   server: sg1.nathaya.web.id
@@ -195,7 +194,6 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
-#============= TRIK Bolak balik ======================
 - name: B_DstbSG1_Bolakbalik-Naver
   type: trojan
   server: plus-store.naver.com 
@@ -209,7 +207,6 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
-#============= TRIK WILDCARD ======================
 - name: B_DstbSG1_WILDCARD
   type: trojan
   server: ava.game.naver.com
@@ -223,7 +220,6 @@ proxies:
     path: /trojan
     headers:
       Host: ava.game.naver.com.sg1.nathaya.web.id
-#=================================================
 - name: B_DstbSG1_TrojanPROXY-LIMITED
   type: trojan
   server: ava.game.naver.com
