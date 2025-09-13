@@ -317,19 +317,6 @@ proxies:
       Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
 - name: B_DstbSG1_TLS_VIU_WC1
   type: trojan
-  server: help.viu.com
-  port: 443
-  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
-  udp: true
-  sni: help.nathaya.web.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.nathaya.web.id
-- name: B_DstbSG1_TLS_VIU_WC2
-  type: trojan
   server: zaintest.vuclip.com
   port: 443
   password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
@@ -614,3 +601,605 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
+- name: B_DstbID1_TJ-XCV-CDN1
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TJ-XCV-CDN2
+  type: trojan
+  server: 172.67.73.39
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TJ-XCV-WC1
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: zoomgov.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TJ-XCV-WC2
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: support.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TJ-XCV-WC3
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: support.zoom.us.id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: support.zoom.us.id1.nathaya.web.id
+- name: B_DstbID1_TJ-XCV-CDN1A
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TJ-XCV-CDN2A
+  type: trojan
+  server: 172.67.73.39
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TJ-XCV-WC1A
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: zoomgov.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TJ-XCV-WC2A
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: support.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TJ-XCV-WC3A
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: support.zoom.us.id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: support.zoom.us.id1.nathaya.web.id
+#============= TRIK SNI======================
+- name: B_DstbID1_SNI-INSTAGRAM
+  type: trojan
+  server: id1.nathaya.web.id
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: graph.instagram.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: graph.instagram.com
+- name: B_DstbID1_SNI-INSTAGRAM2
+  type: trojan
+  server: id1.nathaya.web.id
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: live-upload.instagram.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: live-upload.instagram.com
+- name: B_DstbID1_SNI-INSTAGRAM3
+  type: trojan
+  server: id1.nathaya.web.id
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: z-p15.www.instagram.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: z-p15.www.instagram.com
+- name: B_DstbID1_SNI-FB
+  type: trojan
+  server: id1.nathaya.web.id
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: status.fb.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: status.fb.com
+- name: B_DstbID1_SNI-FB
+  type: trojan
+  server: investor.fb.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+#============= TRIK Bolak balik ======================
+- name: B_DstbID1_Bolakbalik-Naver
+  type: trojan
+  server: plus-store.naver.com 
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+#============= TRIK WILDCARD ======================
+- name: B_DstbID1_WILDCARD
+  type: trojan
+  server: ava.game.naver.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: ava.game.naver.com.id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: ava.game.naver.com.id1.nathaya.web.id
+#=================================================
+- name: B_DstbID1_TrojanPROXY-LIMITED
+  type: trojan
+  server: ava.game.naver.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: ava.game.naver.com.id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: ava.game.naver.com.id1.nathaya.web.id
+- name: B_DstbID1_Membership-willdcard
+  type: trojan
+  server: ava.game.naver.com 
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: ava.game.naver.com.id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /id1.nathaya.web.id/trojan
+    headers:
+      Host: ava.game.naver.com.id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCV_CDN1
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCV_CDN2
+  type: trojan
+  server: 172.67.73.39
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCV_WC1
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: zoomgov.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCV_WC2
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: support.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCV_SNI
+  type: trojan
+  server: id1.nathaya.web.id
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+- name: B_DstbID1_TLS_VIU_WC1
+  type: trojan
+  server: zaintest.vuclip.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: zaintest.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_VIDIO_WC1
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: quiz.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_VIDIO_WC2
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: quiz.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_VIDIO_H1
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_VIDIO_H2
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_VIDIO_H3
+  type: trojan
+  server: quiz.staging.vidio.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_ZOOM_H1
+  type: trojan
+  server: gomarketplacefront-cf.zoom.us
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_ZOOM_H2
+  type: trojan
+  server: marketplacefront-cf.zoom.us
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_ZOOM_H3
+  type: trojan
+  server: gomarketplacecontent-cf.zoom.us
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_GameFF_H1
+  type: trojan
+  server: ava.game.naver.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_GameFF_H2
+  type: trojan
+  server: df.game.naver.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_GameFF_H3
+  type: trojan
+  server: care.pmang.game.naver.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_GameFF_H4
+  type: trojan
+  server: account.pmang.game.naver.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_Gopay_H1
+  type: trojan
+  server: app-stg.gopay.co.id
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id	  
+- name: B_DstbID1_TLS_XCL_IP1
+  type: trojan
+  server: 104.16.125.59
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCL_IP2
+  type: trojan
+  server: 104.16.126.59
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCL_IP3
+  type: trojan
+  server: 104.18.214.235
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCL_IP4
+  type: trojan
+  server: 104.18.213.235
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCL_IP5
+  type: trojan
+  server: 162.159.140.158
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCL_IP6
+  type: trojan
+  server: 104.18.3.96
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCL_IP7
+  type: trojan
+  server: 104.18.2.96
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_Opok50Mb_H1
+  type: trojan
+  server: pay.ovo.id
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
