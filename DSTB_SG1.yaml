@@ -1,5 +1,5 @@
 proxies:
-- name: B_DstbDO1_TJ-XCV-CDN1
+- name: B_DstbSG1_TJ-XCV-CDN1
   type: trojan
   server: 104.17.3.81
   port: 443
@@ -12,7 +12,7 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
-- name: B_DstbDO1_TJ-XCV-CDN2
+- name: B_DstbSG1_TJ-XCV-CDN2
   type: trojan
   server: 172.67.73.39
   port: 443
@@ -25,7 +25,7 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
-- name: B_DstbDO1_TJ-XCV-WC1
+- name: B_DstbSG1_TJ-XCV-WC1
   type: trojan
   server: support.zoom.us
   port: 443
@@ -38,7 +38,7 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
-- name: B_DstbDO1_TJ-XCV-WC2
+- name: B_DstbSG1_TJ-XCV-WC2
   type: trojan
   server: support.zoom.us
   port: 443
@@ -51,7 +51,7 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
-- name: B_DstbDO1_TJ-XCV-WC3
+- name: B_DstbSG1_TJ-XCV-WC3
   type: trojan
   server: support.zoom.us
   port: 443
@@ -64,1759 +64,7 @@ proxies:
     path: /trojan
     headers:
       Host: support.zoom.us.sg1.nathaya.web.id
-- name: B_DstbID3_TJ-XCV-CDN1
-  type: trojan
-  server: 104.17.3.81
-  port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  udp: true
-  sni: id1.nathaya.web.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id1.nathaya.web.id
-- name: B_DstbID3_TJ-XCV-CDN2
-  type: trojan
-  server: 172.67.73.39
-  port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  udp: true
-  sni: id1.nathaya.web.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id1.nathaya.web.id
-- name: B_DstbID3_TJ-XCV-WC1
-  type: trojan
-  server: support.zoom.us
-  port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  udp: true
-  sni: zoomgov.nathaya.web.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id1.nathaya.web.id
-- name: B_DstbID3_TJ-XCV-WC2
-  type: trojan
-  server: support.zoom.us
-  port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  udp: true
-  sni: support.nathaya.web.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id1.nathaya.web.id
-- name: B_DstbID3_TJ-XCV-WC3
-  type: trojan
-  server: support.zoom.us
-  port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  udp: true
-  sni: support.zoom.us.id1.nathaya.web.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: support.zoom.us.id1.nathaya.web.id
-- name: B_TjDO1_TLS_XCV_CDN1
-  type: trojan
-  server: 104.17.3.81
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_XCV_CDN2
-  type: trojan
-  server: 172.67.73.39
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_XCV_WC1
-  type: trojan
-  server: support.zoom.us
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: zoomgov.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_XCV_WC2
-  type: trojan
-  server: support.zoom.us
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: support.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_XCV_SNI
-  type: trojan
-  server: sg1.dstb.cloud
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: B_VmsDo1_TLS_XCV_CDN
-  type: vmess
-  server: 104.17.3.81
-  port: 443
-  uuid: 030efcba-ee61-4288-a4b1-afaf11cdcb78
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: sg1.dstb.cloud
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_VmsDo1_TLS_XCV_WC
-  type: vmess
-  server: support.zoom.us
-  port: 443
-  uuid: 030efcba-ee61-4288-a4b1-afaf11cdcb78
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: zoomgov.dstb.cloud
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_VmsDo1_TLS_XCV_SNI
-  type: vmess
-  server: sg1.dstb.cloud
-  port: 443
-  uuid: 030efcba-ee61-4288-a4b1-afaf11cdcb78
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: B_VmsDo1_TLS_VIDIO_SNI
-  type: vmess
-  server: sg1.dstb.cloud
-  port: 443
-  uuid: 030efcba-ee61-4288-a4b1-afaf11cdcb78
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: quiz.int.vidio.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: quiz.int.vidio.com
-- name: B_VmsDo1_NTLS_XCV_SNI
-  type: vmess
-  server: sg1.dstb.cloud
-  port: 80
-  uuid: 030efcba-ee61-4288-a4b1-afaf11cdcb78
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: false
-  servername: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: B_VmsDo1_NTLS_VIDIO_SNI
-  type: vmess
-  server: sg1.dstb.cloud
-  port: 80
-  uuid: 030efcba-ee61-4288-a4b1-afaf11cdcb78
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: false
-  servername: quiz.int.vidio.com
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: quiz.int.vidio.com
-- name: B_TjDO1_TLS_VIU_WC1
-  type: trojan
-  server: help.viu.com
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: help.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_VIU_WC1
-  type: trojan
-  server: zaintest.vuclip.com
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: zaintest.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_VIDIO_WC1
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: quiz.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_VIDIO_WC2
-  type: trojan
-  server: quiz.vidio.com
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: quiz.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_VIDIO_IP1
-  type: trojan
-  server: 172.67.5.14
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_VIDIO_IP2
-  type: trojan
-  server: 104.22.5.240
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_VIDIO_IP3
-  type: trojan
-  server: 104.22.4.240
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_VIDIO_H1
-  type: trojan
-  server: quiz.vidio.com
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_VIDIO_H2
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_VIDIO_H3
-  type: trojan
-  server: quiz.staging.vidio.com
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_ZOOM_H1
-  type: trojan
-  server: gomarketplacefront-cf.zoom.us
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_ZOOM_H2
-  type: trojan
-  server: marketplacefront-cf.zoom.us
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_ZOOM_H3
-  type: trojan
-  server: gomarketplacecontent-cf.zoom.us
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_GameFF_H1
-  type: trojan
-  server: ava.game.naver.com
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_GameFF_H2
-  type: trojan
-  server: df.game.naver.com
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_GameFF_H3
-  type: trojan
-  server: care.pmang.game.naver.com
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_GameFF_H4
-  type: trojan
-  server: account.pmang.game.naver.com
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_Gopay_H1
-  type: trojan
-  server: app-stg.gopay.co.id
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud	  
-- name: B_TjDO1_TLS_XCL_IP1
-  type: trojan
-  server: 104.16.125.59
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_XCL_IP2
-  type: trojan
-  server: 104.16.126.59
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_XCL_IP3
-  type: trojan
-  server: 104.18.214.235
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_XCL_IP4
-  type: trojan
-  server: 104.18.213.235
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_XCL_IP5
-  type: trojan
-  server: 162.159.140.158
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_XCL_IP6
-  type: trojan
-  server: 104.18.3.96
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_XCL_IP7
-  type: trojan
-  server: 104.18.2.96
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjDO1_TLS_Opok50Mb_H1
-  type: trojan
-  server: pay.ovo.id
-  port: 443
-  password: ab3b5db8-4cbb-4136-8f55-44752f27134a
-  udp: true
-  sni: sg1.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.dstb.cloud
-- name: B_TjNS1_TLS_XCV_CDN1
-  type: trojan
-  server: 104.17.3.81
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_XCV_CDN2
-  type: trojan
-  server: 172.67.73.39
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_XCV_WC1
-  type: trojan
-  server: support.zoom.us
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: zoomgov.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_XCV_WC2
-  type: trojan
-  server: support.zoom.us
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: support.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_XCV_SNI
-  type: trojan
-  server: id1.dstb.my.id
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: B_VmsNS1_TLS_XCV_CDN
-  type: vmess
-  server: 104.17.3.81
-  port: 443
-  uuid: 2ce41c1b-d366-4f99-9a26-8c2c6708e357
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: id1.dstb.my.id
-  network: ws
-  ws-opts:
-    path: /vmess-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_VmsNS1_TLS_XCV_WC
-  type: vmess
-  server: support.zoom.us
-  port: 443
-  uuid: 2ce41c1b-d366-4f99-9a26-8c2c6708e357
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: zoomgov.dstb.my.id
-  network: ws
-  ws-opts:
-    path: /vmess-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_VmsNS1_TLS_XCV_SNI
-  type: vmess
-  server: id1.dstb.my.id
-  port: 443
-  uuid: 2ce41c1b-d366-4f99-9a26-8c2c6708e357
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-  network: ws
-  ws-opts:
-    path: /vmess-ws
-    headers:
-      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: B_VmsNS1_TLS_VIDIO_SNI
-  type: vmess
-  server: id1.dstb.my.id
-  port: 443
-  uuid: 2ce41c1b-d366-4f99-9a26-8c2c6708e357
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: quiz.int.vidio.com
-  network: ws
-  ws-opts:
-    path: /vmess-ws
-    headers:
-      Host: quiz.int.vidio.com
-- name: B_VmsNS1_NTLS_XCV_SNI
-  type: vmess
-  server: id1.dstb.my.id
-  port: 80
-  uuid: 2ce41c1b-d366-4f99-9a26-8c2c6708e357
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: false
-  servername: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-  network: ws
-  ws-opts:
-    path: /vmess-ws
-    headers:
-      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: B_VmsNS1_NTLS_VIDIO_SNI
-  type: vmess
-  server: id1.dstb.my.id
-  port: 80
-  uuid: 2ce41c1b-d366-4f99-9a26-8c2c6708e357
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: false
-  servername: quiz.int.vidio.com
-  network: ws
-  ws-opts:
-    path: /vmess-ws
-    headers:
-      Host: quiz.int.vidio.com
-- name: B_VlsNS1_TLS_XCV_CDN
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 8fba8427-765a-4a11-836f-247afdd1f266
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: id1.dstb.my.id
-  network: ws
-  ws-opts:
-    path: /vless-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_VlsNS1_TLS_XCV_WC
-  type: vless
-  server: support.zoom.us
-  port: 443
-  uuid: 8fba8427-765a-4a11-836f-247afdd1f266
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: zoomgov.dstb.my.id
-  network: ws
-  ws-opts:
-    path: /vless-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_VlsNS1_TLS_XCV_SNI
-  type: vless
-  server: id1.dstb.my.id
-  port: 443
-  uuid: 8fba8427-765a-4a11-836f-247afdd1f266
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-  network: ws
-  ws-opts:
-    path: /vless-ws
-    headers:
-      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: B_TjTcpNS1_TLS_XCV_SNI
-  type: trojan
-  server: id1.dstb.my.id
-  port: 443
-  password: 92a69f65-61ab-4950-94ba-56f1f58ab8b6
-  udp: true
-  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-  skip-cert-verify: true
-- name: B_TjGoNS1_TLS_XCV_CDN
-  server: 104.17.3.81
-  port: 8443
-  type: trojan
-  password: svrnusa1_tjgo
-  network: ws
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /trojan-go
-    headers:
-        Host: id1.dstb.my.id
-- name: B_TjGoNS1_TLS_XCV_WC
-  server: support.zoom.us
-  port: 8443
-  type: trojan
-  password: svrnusa1_tjgo
-  network: ws
-  sni: zoomgov.dstb.my.id
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /trojan-go
-    headers:
-        Host: id1.dstb.my.id
-- name: B_TjGoNS1_TLS_XCV_SNI
-  server: id1.dstb.my.id
-  port: 8443
-  type: trojan
-  password: svrnusa1_tjgo
-  network: ws
-  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /trojan-go
-    headers:
-        Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: B_TjNS1_TLS_VIU_CDN1
-  type: trojan
-  server: zaintest.vuclip.com
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_VIU_CDN2
-  type: trojan
-  server: help.viu.com
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_VIDIO_WC1
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: quiz.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_VIDIO_WC2
-  type: trojan
-  server: quiz.vidio.com
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: quiz.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_VIDIO_IP1
-  type: trojan
-  server: 172.67.5.14
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_VIDIO_IP2
-  type: trojan
-  server: 104.22.5.240
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_VIDIO_IP3
-  type: trojan
-  server: 104.22.4.240
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_VIDIO_H1
-  type: trojan
-  server: quiz.vidio.com
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_VIDIO_H2
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_VIDIO_H3
-  type: trojan
-  server: quiz.staging.vidio.com
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_ZOOM_H1
-  type: trojan
-  server: gomarketplacefront-cf.zoom.us
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_ZOOM_H2
-  type: trojan
-  server: marketplacefront-cf.zoom.us
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_ZOOM_H3
-  type: trojan
-  server: gomarketplacecontent-cf.zoom.us
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_GameFF_H1
-  type: trojan
-  server: ava.game.naver.com
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_GameFF_H2
-  type: trojan
-  server: df.game.naver.com
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_GameFF_H3
-  type: trojan
-  server: care.pmang.game.naver.com
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_GameFF_H4
-  type: trojan
-  server: account.pmang.game.naver.com
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_Gopay_H1
-  type: trojan
-  server: app-stg.gopay.co.id
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id	  
-- name: B_TjNS1_TLS_XCL_IP1
-  type: trojan
-  server: 104.16.125.59
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_XCL_IP2
-  type: trojan
-  server: 104.16.126.59
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_XCL_IP3
-  type: trojan
-  server: 104.18.214.235
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_XCL_IP4
-  type: trojan
-  server: 104.18.213.235
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_XCL_IP5
-  type: trojan
-  server: 162.159.140.158
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_XCL_IP6
-  type: trojan
-  server: 104.18.3.96
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_XCL_IP7
-  type: trojan
-  server: 104.18.2.96
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS1_TLS_Opok50Mb_H1
-  type: trojan
-  server: pay.ovo.id
-  port: 443
-  password: d96a8c6c-4675-4edc-9033-225571a7f595
-  udp: true
-  sni: id1.dstb.my.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id1.dstb.my.id
-- name: B_TjNS2_TLS_XCV_CDN1
-  type: trojan
-  server: 104.17.3.81
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_XCV_CDN2
-  type: trojan
-  server: 172.67.73.39
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_XCV_WC1
-  type: trojan
-  server: support.zoom.us
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: zoomgov.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_XCV_WC2
-  type: trojan
-  server: support.zoom.us
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: support.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_XCV_SNI
-  type: trojan
-  server: id2.rumah1.cloud
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: B_VmsNS2_TLS_XCV_CDN
-  type: vmess
-  server: 104.17.3.81
-  port: 443
-  uuid: ae71aed1-9248-49b0-ac31-e28ff4058a8d
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: id2.rumah1.cloud
-  network: ws
-  ws-opts:
-    path: /vmess-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_VmsNS2_TLS_XCV_WC
-  type: vmess
-  server: support.zoom.us
-  port: 443
-  uuid: ae71aed1-9248-49b0-ac31-e28ff4058a8d
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: zoomgov.rumah1.cloud
-  network: ws
-  ws-opts:
-    path: /vmess-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_VmsNS2_TLS_XCV_SNI
-  type: vmess
-  server: id2.rumah1.cloud
-  port: 443
-  uuid: ae71aed1-9248-49b0-ac31-e28ff4058a8d
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-  network: ws
-  ws-opts:
-    path: /vmess-ws
-    headers:
-      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: B_VmsNS2_TLS_VIDIO_SNI
-  type: vmess
-  server: id2.rumah1.cloud
-  port: 443
-  uuid: ae71aed1-9248-49b0-ac31-e28ff4058a8d
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: quiz.int.vidio.com
-  network: ws
-  ws-opts:
-    path: /vmess-ws
-    headers:
-      Host: quiz.int.vidio.com
-- name: B_VmsNS2_NTLS_XCV_SNI
-  type: vmess
-  server: id2.rumah1.cloud
-  port: 80
-  uuid: ae71aed1-9248-49b0-ac31-e28ff4058a8d
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: false
-  servername: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-  network: ws
-  ws-opts:
-    path: /vmess-ws
-    headers:
-      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: B_VmsNS2_NTLS_VIDIO_SNI
-  type: vmess
-  server: id2.rumah1.cloud
-  port: 80
-  uuid: ae71aed1-9248-49b0-ac31-e28ff4058a8d
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: false
-  servername: quiz.int.vidio.com
-  network: ws
-  ws-opts:
-    path: /vmess-ws
-    headers:
-      Host: quiz.int.vidio.com
-- name: B_VlsNS2_TLS_XCV_CDN
-  type: vless
-  server: 104.17.3.81
-  port: 443
-  uuid: 1c823364-d8a4-43ba-a773-e2289c9a3a92
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: id2.rumah1.cloud
-  network: ws
-  ws-opts:
-    path: /vless-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_VlsNS2_TLS_XCV_WC
-  type: vless
-  server: support.zoom.us
-  port: 443
-  uuid: 1c823364-d8a4-43ba-a773-e2289c9a3a92
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: zoomgov.rumah1.cloud
-  network: ws
-  ws-opts:
-    path: /vless-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_VlsNS2_TLS_XCV_SNI
-  type: vless
-  server: id2.rumah1.cloud
-  port: 443
-  uuid: 1c823364-d8a4-43ba-a773-e2289c9a3a92
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-  network: ws
-  ws-opts:
-    path: /vless-ws
-    headers:
-      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: B_TjTcpNS2_TLS_XCV_SNI
-  type: trojan
-  server: id2.rumah1.cloud
-  port: 443
-  password: b00a8880-9e0b-4595-9894-76c011637d97
-  udp: true
-  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-  skip-cert-verify: true
-- name: B_TjGoNS2_TLS_XCV_CDN
-  server: 104.17.3.81
-  port: 8443
-  type: trojan
-  password: svrnusa2_tjgo
-  network: ws
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /trojan-go
-    headers:
-        Host: id2.rumah1.cloud
-- name: B_TjGoNS2_TLS_XCV_WC
-  server: support.zoom.us
-  port: 8443
-  type: trojan
-  password: svrnusa2_tjgo
-  network: ws
-  sni: zoomgov.rumah1.cloud
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /trojan-go
-    headers:
-        Host: id2.rumah1.cloud
-- name: B_TjGoNS2_TLS_XCV_SNI
-  server: id2.rumah1.cloud
-  port: 8443
-  type: trojan
-  password: svrnusa2_tjgo
-  network: ws
-  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: /trojan-go
-    headers:
-        Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
-- name: B_TjNS2_TLS_VIU_CDN1
-  type: trojan
-  server: zaintest.vuclip.com
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_VIU_CDN2
-  type: trojan
-  server: help.viu.com
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_VIDIO_WC1
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: quiz.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_VIDIO_WC2
-  type: trojan
-  server: quiz.vidio.com
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: quiz.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_VIDIO_IP1
-  type: trojan
-  server: 172.67.5.14
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_VIDIO_IP2
-  type: trojan
-  server: 104.22.5.240
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_VIDIO_IP3
-  type: trojan
-  server: 104.22.4.240
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_VIDIO_H1
-  type: trojan
-  server: quiz.vidio.com
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_VIDIO_H2
-  type: trojan
-  server: quiz.int.vidio.com
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_VIDIO_H3
-  type: trojan
-  server: quiz.staging.vidio.com
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_ZOOM_H1
-  type: trojan
-  server: gomarketplacefront-cf.zoom.us
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_ZOOM_H2
-  type: trojan
-  server: marketplacefront-cf.zoom.us
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_ZOOM_H3
-  type: trojan
-  server: gomarketplacecontent-cf.zoom.us
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_GameFF_H1
-  type: trojan
-  server: ava.game.naver.com
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_GameFF_H2
-  type: trojan
-  server: df.game.naver.com
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_GameFF_H3
-  type: trojan
-  server: care.pmang.game.naver.com
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_GameFF_H4
-  type: trojan
-  server: account.pmang.game.naver.com
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_Gopay_H1
-  type: trojan
-  server: app-stg.gopay.co.id
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud	  
-- name: B_TjNS2_TLS_XCL_IP1
-  type: trojan
-  server: 104.16.125.59
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_XCL_IP2
-  type: trojan
-  server: 104.16.126.59
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_XCL_IP3
-  type: trojan
-  server: 104.18.214.235
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_XCL_IP4
-  type: trojan
-  server: 104.18.213.235
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_XCL_IP5
-  type: trojan
-  server: 162.159.140.158
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_XCL_IP6
-  type: trojan
-  server: 104.18.3.96
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_XCL_IP7
-  type: trojan
-  server: 104.18.2.96
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_TjNS2_TLS_Opok50Mb_H1
-  type: trojan
-  server: pay.ovo.id
-  port: 443
-  password: cba51c3f-80fb-4306-a41a-4a7a255b5b1e
-  udp: true
-  sni: id2.rumah1.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: id2.rumah1.cloud
-- name: B_DstbDO1_TJ-XCV-CDN1A
+- name: B_DstbSG1_TJ-XCV-CDN1A
   type: trojan
   server: 104.17.3.81
   port: 443
@@ -1829,7 +77,7 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
-- name: B_DstbDO1_TJ-XCV-CDN2A
+- name: B_DstbSG1_TJ-XCV-CDN2A
   type: trojan
   server: 172.67.73.39
   port: 443
@@ -1842,7 +90,7 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
-- name: B_DstbDO1_TJ-XCV-WC1A
+- name: B_DstbSG1_TJ-XCV-WC1A
   type: trojan
   server: support.zoom.us
   port: 443
@@ -1855,7 +103,7 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
-- name: B_DstbDO1_TJ-XCV-WC2A
+- name: B_DstbSG1_TJ-XCV-WC2A
   type: trojan
   server: support.zoom.us
   port: 443
@@ -1868,7 +116,7 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
-- name: B_DstbDO1_TJ-XCV-WC3A
+- name: B_DstbSG1_TJ-XCV-WC3A
   type: trojan
   server: support.zoom.us
   port: 443
@@ -1882,7 +130,7 @@ proxies:
     headers:
       Host: support.zoom.us.sg1.nathaya.web.id
 #============= TRIK SNI======================
-- name: B_DstbDO1_SNI-INSTAGRAM
+- name: B_DstbSG1_SNI-INSTAGRAM
   type: trojan
   server: sg1.nathaya.web.id
   port: 443
@@ -1895,7 +143,7 @@ proxies:
     path: /trojan
     headers:
       Host: graph.instagram.com
-- name: B_DstbDO1_SNI-INSTAGRAM2
+- name: B_DstbSG1_SNI-INSTAGRAM2
   type: trojan
   server: sg1.nathaya.web.id
   port: 443
@@ -1908,7 +156,7 @@ proxies:
     path: /trojan
     headers:
       Host: live-upload.instagram.com
-- name: B_DstbDO1_SNI-INSTAGRAM3
+- name: B_DstbSG1_SNI-INSTAGRAM3
   type: trojan
   server: sg1.nathaya.web.id
   port: 443
@@ -1921,7 +169,7 @@ proxies:
     path: /trojan
     headers:
       Host: z-p15.www.instagram.com
-- name: B_DstbDO1_SNI-FB
+- name: B_DstbSG1_SNI-FB
   type: trojan
   server: sg1.nathaya.web.id
   port: 443
@@ -1934,7 +182,7 @@ proxies:
     path: /trojan
     headers:
       Host: status.fb.com
-- name: B_DstbDO1_SNI-FB
+- name: B_DstbSG1_SNI-FB
   type: trojan
   server: investor.fb.com
   port: 443
@@ -1948,7 +196,7 @@ proxies:
     headers:
       Host: sg1.nathaya.web.id
 #============= TRIK Bolak balik ======================
-- name: B_DstbDO1_Bolakbalik-Naver
+- name: B_DstbSG1_Bolakbalik-Naver
   type: trojan
   server: plus-store.naver.com 
   port: 443
@@ -1961,21 +209,8 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
-- name: B_DstbDO1_Bolakbalik-Game-Naver
-  type: trojan
-  server: game.naver.com
-  port: 443
-  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
-  udp: true
-  sni: sg1.nathaya.web.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.nathaya.web.id
 #============= TRIK WILDCARD ======================
-- name: B_DstbDO1_WILDCARD
+- name: B_DstbSG1_WILDCARD
   type: trojan
   server: ava.game.naver.com
   port: 443
@@ -1988,51 +223,8 @@ proxies:
     path: /trojan
     headers:
       Host: ava.game.naver.com.sg1.nathaya.web.id
-- name: B_DstbDO1_WILDCARD2
-  type: trojan
-  server: sogood.linefriends.com
-  port: 443
-  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
-  udp: true
-  sni: sogood.linefriends.com.sg1.nathaya.web.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sogood.linefriends.com.sg1.nathaya.web.id
-- name: B_VmsNS1_vmesntls
-  type: vmess
-  server: blog.clova.line.me 
-  port: 443
-  uuid: 2ce41c1b-d366-4f99-9a26-8c2c6708e357
-  alterId: 0
-  cipher: auto
-  udp: true
-  servername: id1.dstb.my.id
-  skip-cert-verify: true
-  tls: false
-  network: ws
-  ws-opts:
-    path: /vmess-ws
-    headers:
-      Host: id1.dstb.my.id
 #=================================================
-- name: B_VlsNS1_VlessPROXY-LIMITED
-  type: vless
-  server: ava.game.naver.com
-  port: 443
-  uuid: 8fba8427-765a-4a11-836f-247afdd1f266
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: ava.game.naver.com.id1.dstb.my.id
-  network: ws
-  ws-opts:
-    path: /vless-ws
-    headers:
-      Host: ava.game.naver.com.id1.dstb.my.id
-- name: B_DstbDO1_TrojanPROXY-LIMITED
+- name: B_DstbSG1_TrojanPROXY-LIMITED
   type: trojan
   server: ava.game.naver.com
   port: 443
@@ -2045,7 +237,7 @@ proxies:
     path: /trojan
     headers:
       Host: ava.game.naver.com.sg1.nathaya.web.id
-- name: B_DstbDO1_Membership-willdcard
+- name: B_DstbSG1_Membership-willdcard
   type: trojan
   server: ava.game.naver.com 
   port: 443
@@ -2058,3 +250,1004 @@ proxies:
     path: /sg1.nathaya.web.id/trojan
     headers:
       Host: ava.game.naver.com.sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_XCV_CDN1
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_XCV_CDN2
+  type: trojan
+  server: 172.67.73.39
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_XCV_WC1
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: zoomgov.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_XCV_WC2
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: support.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_XCV_SNI
+  type: trojan
+  server: sg1.nathaya.web.id
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+- name: B_DstbSG1_TLS_XCV_CDN
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  uuid: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: sg1.nathaya.web.id
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_XCV_WC
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  uuid: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: zoomgov.dstb.cloud
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_XCV_SNI
+  type: trojan
+  server: sg1.nathaya.web.id
+  port: 443
+  uuid: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+- name: B_DstbSG1_TLS_VIDIO_SNI
+  type: trojan
+  server: sg1.nathaya.web.id
+  port: 443
+  uuid: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: quiz.int.vidio.com
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: quiz.int.vidio.com
+- name: B_DstbSG1_NTLS_XCV_SNI
+  type: trojan
+  server: sg1.nathaya.web.id
+  port: 80
+  uuid: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  servername: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+- name: B_DstbSG1_NTLS_VIDIO_SNI
+  type: trojan
+  server: sg1.nathaya.web.id
+  port: 80
+  uuid: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: false
+  servername: quiz.int.vidio.com
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: quiz.int.vidio.com
+- name: B_DstbSG1_TLS_VIU_WC1
+  type: trojan
+  server: help.viu.com
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: help.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_VIU_WC1
+  type: trojan
+  server: zaintest.vuclip.com
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: zaintest.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_VIDIO_WC1
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: quiz.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_VIDIO_WC2
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: quiz.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_VIDIO_IP1
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_VIDIO_IP2
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_VIDIO_IP3
+  type: trojan
+  server: 104.22.4.240
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_VIDIO_H1
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_VIDIO_H2
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_VIDIO_H3
+  type: trojan
+  server: quiz.staging.vidio.com
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_ZOOM_H1
+  type: trojan
+  server: gomarketplacefront-cf.zoom.us
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_ZOOM_H2
+  type: trojan
+  server: marketplacefront-cf.zoom.us
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_ZOOM_H3
+  type: trojan
+  server: gomarketplacecontent-cf.zoom.us
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_GameFF_H1
+  type: trojan
+  server: ava.game.naver.com
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_GameFF_H2
+  type: trojan
+  server: df.game.naver.com
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_GameFF_H3
+  type: trojan
+  server: care.pmang.game.naver.com
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_GameFF_H4
+  type: trojan
+  server: account.pmang.game.naver.com
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_Gopay_H1
+  type: trojan
+  server: app-stg.gopay.co.id
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id	  
+- name: B_DstbSG1_TLS_XCL_IP1
+  type: trojan
+  server: 104.16.125.59
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_XCL_IP2
+  type: trojan
+  server: 104.16.126.59
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_XCL_IP3
+  type: trojan
+  server: 104.18.214.235
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_XCL_IP4
+  type: trojan
+  server: 104.18.213.235
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_XCL_IP5
+  type: trojan
+  server: 162.159.140.158
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_XCL_IP6
+  type: trojan
+  server: 104.18.3.96
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_XCL_IP7
+  type: trojan
+  server: 104.18.2.96
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TLS_Opok50Mb_H1
+  type: trojan
+  server: pay.ovo.id
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbID1_TJ-XCV-CDN1
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TJ-XCV-CDN2
+  type: trojan
+  server: 172.67.73.39
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TJ-XCV-WC1
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: zoomgov.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TJ-XCV-WC2
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: support.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TJ-XCV-WC3
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: support.zoom.us.id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: support.zoom.us.id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCV_CDN1
+  type: trojan
+  server: 104.17.3.81
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCV_CDN2
+  type: trojan
+  server: 172.67.73.39
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCV_WC1
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: zoomgov.dstb.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCV_WC2
+  type: trojan
+  server: support.zoom.us
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: support.dstb.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCV_SNI
+  type: trojan
+  server: id1.nathaya.web.id
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+- name: B_TcpDstbID_TLS_XCV_SNI
+  type: trojan
+  server: id1.nathaya.web.id
+  port: 443
+  password: 92a69f65-61ab-4950-94ba-56f1f58ab8b6
+  udp: true
+  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  skip-cert-verify: true
+- name: B_TjGoNS1_TLS_XCV_WC
+  server: support.zoom.us
+  port: 8443
+  type: trojan
+  password: svrnusa1_tjgo
+  network: ws
+  sni: zoomgov.dstb.my.id
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-go
+    headers:
+        Host: id1.nathaya.web.id
+- name: B_TjGoNS1_TLS_XCV_SNI
+  server: id1.nathaya.web.id
+  port: 8443
+  type: trojan
+  password: svrnusa1_tjgo
+  network: ws
+  sni: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+  skip-cert-verify: true
+  udp: true
+  ws-opts:
+    path: /trojan-go
+    headers:
+        Host: trouter2-azsc-uswe-3-a.trouter.teams.microsoft.com
+- name: B_DstbID1_TLS_VIU_CDN1
+  type: trojan
+  server: zaintest.vuclip.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_VIU_CDN2
+  type: trojan
+  server: help.viu.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_VIDIO_WC1
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: quiz.dstb.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_VIDIO_WC2
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: quiz.dstb.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_VIDIO_IP1
+  type: trojan
+  server: 172.67.5.14
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_VIDIO_IP2
+  type: trojan
+  server: 104.22.5.240
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_VIDIO_IP3
+  type: trojan
+  server: 104.22.4.240
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_VIDIO_H1
+  type: trojan
+  server: quiz.vidio.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_VIDIO_H2
+  type: trojan
+  server: quiz.int.vidio.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_VIDIO_H3
+  type: trojan
+  server: quiz.staging.vidio.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_ZOOM_H1
+  type: trojan
+  server: gomarketplacefront-cf.zoom.us
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_ZOOM_H2
+  type: trojan
+  server: marketplacefront-cf.zoom.us
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_ZOOM_H3
+  type: trojan
+  server: gomarketplacecontent-cf.zoom.us
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_GameFF_H1
+  type: trojan
+  server: ava.game.naver.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_GameFF_H2
+  type: trojan
+  server: df.game.naver.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_GameFF_H3
+  type: trojan
+  server: care.pmang.game.naver.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_GameFF_H4
+  type: trojan
+  server: account.pmang.game.naver.com
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_Gopay_H1
+  type: trojan
+  server: app-stg.gopay.co.id
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id	  
+- name: B_DstbID1_TLS_XCL_IP1
+  type: trojan
+  server: 104.16.125.59
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCL_IP2
+  type: trojan
+  server: 104.16.126.59
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCL_IP3
+  type: trojan
+  server: 104.18.214.235
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCL_IP4
+  type: trojan
+  server: 104.18.213.235
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCL_IP5
+  type: trojan
+  server: 162.159.140.158
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCL_IP6
+  type: trojan
+  server: 104.18.3.96
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_XCL_IP7
+  type: trojan
+  server: 104.18.2.96
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
+- name: B_DstbID1_TLS_Opok50Mb_H1
+  type: trojan
+  server: pay.ovo.id
+  port: 443
+  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
+  udp: true
+  sni: id1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: id1.nathaya.web.id
