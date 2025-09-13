@@ -328,7 +328,7 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
-- name: B_DstbSG1_TLS_VIU_WC1
+- name: B_DstbSG1_TLS_VIU_WC2
   type: trojan
   server: zaintest.vuclip.com
   port: 443
@@ -361,45 +361,6 @@ proxies:
   password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
   udp: true
   sni: quiz.nathaya.web.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.nathaya.web.id
-- name: B_DstbSG1_TLS_VIDIO_IP1
-  type: trojan
-  server: 172.67.5.14
-  port: 443
-  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
-  udp: true
-  sni: sg1.nathaya.web.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.nathaya.web.id
-- name: B_DstbSG1_TLS_VIDIO_IP2
-  type: trojan
-  server: 104.22.5.240
-  port: 443
-  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
-  udp: true
-  sni: sg1.nathaya.web.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.nathaya.web.id
-- name: B_DstbSG1_TLS_VIDIO_IP3
-  type: trojan
-  server: 104.22.4.240
-  port: 443
-  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
-  udp: true
-  sni: sg1.nathaya.web.id
   skip-cert-verify: true
   network: ws
   ws-opts:
