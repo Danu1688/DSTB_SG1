@@ -646,7 +646,7 @@ proxies:
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: zoomgov.nathaya.web.id
+  sni: zoomgov.vpncepatz.biz.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -659,7 +659,7 @@ proxies:
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: support.nathaya.web.id
+  sni: support.vpncepatz.biz.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -711,7 +711,7 @@ proxies:
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: zoomgov.nathaya.web.id
+  sni: zoomgov.vpncepatz.biz.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -724,7 +724,7 @@ proxies:
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: support.nathaya.web.id
+  sni: support.vpncepatz.biz.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -897,7 +897,7 @@ proxies:
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: zoomgov.nathaya.web.id
+  sni: zoomgov.vpncepatz.biz.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -910,7 +910,7 @@ proxies:
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: support.nathaya.web.id
+  sni: support.vpncepatz.biz.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -936,7 +936,7 @@ proxies:
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: zaintest.nathaya.web.id
+  sni: zaintest.vpncepatz.biz.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -949,7 +949,7 @@ proxies:
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: quiz.nathaya.web.id
+  sni: quiz.vpncepatz.biz.id
   skip-cert-verify: true
   network: ws
   ws-opts:
@@ -962,7 +962,7 @@ proxies:
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: quiz.nathaya.web.id
+  sni: quiz.vpncepatz.biz.id
   skip-cert-verify: true
   network: ws
   ws-opts:
