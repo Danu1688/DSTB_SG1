@@ -25,19 +25,6 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
-- name: B_DstbSG1_TJ-BIZ-WC1
-  server: 104.18.213.235
-  port: 443
-  type: trojan
-  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
-  skip-cert-verify: true
-  sni: ava.game.naver.com.sg1.nathaya.web.id
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: ava.game.naver.com.sg1.nathaya.web.id
-  udp: true
 - name: B_DstbSG1_TJ-XCV-WC1
   type: trojan
   server: support.zoom.us
@@ -672,13 +659,13 @@ proxies:
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: support.zoom.us.vpncepatz.biz.id
+  sni: support.zoom.us.nusa.vpncepatz.biz.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: support.zoom.us.vpncepatz.biz.id
+      Host: support.zoom.us.nusa.vpncepatz.biz.id
 - name: B_NusaID1_TJ-XCV-CDN1A
   type: trojan
   server: 104.17.3.81
@@ -737,13 +724,13 @@ proxies:
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: support.zoom.us.vpncepatz.biz.id
+  sni: support.zoom.us.nusa.vpncepatz.biz.id
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: support.zoom.us.vpncepatz.biz.id
+      Host: support.zoom.us.nusa.vpncepatz.biz.id
 #============= TRIK SNI======================
 - name: B_NusaID1_SNI-INSTAGRAM1
   type: trojan
