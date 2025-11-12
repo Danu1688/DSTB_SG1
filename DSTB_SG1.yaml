@@ -1,4 +1,30 @@
 proxies:
+- name: B_DstbSG1_TJ-Vidi-WS1
+  type: trojan
+  server: 104.18.1.196
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
+- name: B_DstbSG1_TJ-Vidi-WS2
+  type: trojan
+  server: investors.spotify.com
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
 - name: B_DstbSG1_TJ-XCV-CDN1
   type: trojan
   server: 104.17.3.81
