@@ -1,4 +1,5 @@
 proxies:
+#============= TRIK VIDI WS BOLAK BALIK ======================
 - name: B_DstbSG1_TJ-Vidi-WS1
   type: trojan
   server: 104.18.1.196
@@ -25,7 +26,7 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
-#============= TRIK SSL SNI ======================
+#============= TRIK PROS SSL SNI ======================
 - name: B_DstbSG1_TJ-Pros-SSL1
   type: trojan
   server: sg1.nathaya.web.id
@@ -143,7 +144,7 @@ proxies:
     path: /trojan
     headers:
       Host: www.garena.co.id
-#============= TRIK WS BOLAK BALIK ======================
+#============= TRIK PROS WS BOLAK BALIK ======================
 - name: B_DstbSG1_TJ-Pros-WS1
   type: trojan
   server: dl.cvs.freefiremobile.com
@@ -248,7 +249,7 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
-#============= TRIK WILDCARD A ======================
+#============= TRIK PROS WILDCARD A ======================
 - name: B_DstbSG1_TJ-Pros-WCA1
   type: trojan
   server: dl.cvs.freefiremobile.com
@@ -353,7 +354,7 @@ proxies:
     path: /trojan
     headers:
       Host: web.poe.garena.com.sg1.nathaya.web.id
-#============= TRIK WILDCARD B ======================
+#============= TRIK PROS WILDCARD B ======================
 - name: B_DstbSG1_TJ-Pros-WCB1
   type: trojan
   server: dl.cvs.freefiremobile.com
@@ -458,7 +459,7 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
-#============= TRIK WILDCARD C ======================
+#============= TRIK PROS WILDCARD C ======================
 - name: B_DstbSG1_TJ-Pros-WCC1
   type: trojan
   server: dl.cvs.freefiremobile.com
