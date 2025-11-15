@@ -249,7 +249,7 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
-#============= TRIK WS BOLAK BALIK ======================
+#============= TRIK XCV CDN BOLAK BALIK ======================
 - name: B_DstbSG1_TJ-XCV-CDN1
   type: trojan
   server: 104.17.3.81
