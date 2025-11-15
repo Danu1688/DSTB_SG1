@@ -858,160 +858,160 @@ proxies:
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TJ-Vidi-WS2
   type: trojan
   server: investors.spotify.com
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TJ-XCV-CDN1
   type: trojan
   server: 104.17.3.81
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TJ-XCV-CDN2
   type: trojan
   server: 172.67.73.39
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TJ-XCV-WC1
   type: trojan
   server: support.zoom.us
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: zoomgov.vpncepatz.biz.id
+  sni: zoomgov.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TJ-XCV-WC2
   type: trojan
   server: support.zoom.us
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: support.vpncepatz.biz.id
+  sni: support.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TJ-XCV-WC3
   type: trojan
   server: support.zoom.us
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: support.zoom.us.nusa.vpncepatz.biz.id
+  sni: support.zoom.us.indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: support.zoom.us.nusa.vpncepatz.biz.id
+      Host: support.zoom.us.indo.indoxspeed.cloud
 - name: B_NusaID1_TJ-XCV-CDN1A
   type: trojan
   server: 104.17.3.81
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TJ-XCV-CDN2A
   type: trojan
   server: 172.67.73.39
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TJ-XCV-WC1A
   type: trojan
   server: support.zoom.us
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: zoomgov.vpncepatz.biz.id
+  sni: zoomgov.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TJ-XCV-WC2A
   type: trojan
   server: support.zoom.us
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: support.vpncepatz.biz.id
+  sni: support.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TJ-XCV-WC3A
   type: trojan
   server: support.zoom.us
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: support.zoom.us.nusa.vpncepatz.biz.id
+  sni: support.zoom.us.indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: support.zoom.us.nusa.vpncepatz.biz.id
+      Host: support.zoom.us.indo.indoxspeed.cloud
 #============= TRIK SNI======================
 - name: B_NusaID1_SNI-INSTAGRAM1
   type: trojan
-  server: nusa.vpncepatz.biz.id
+  server: indo.indoxspeed.cloud
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
@@ -1024,7 +1024,7 @@ proxies:
       Host: graph.instagram.com
 - name: B_NusaID1_SNI-INSTAGRAM2
   type: trojan
-  server: nusa.vpncepatz.biz.id
+  server: indo.indoxspeed.cloud
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
@@ -1037,7 +1037,7 @@ proxies:
       Host: live-upload.instagram.com
 - name: B_NusaID1_SNI-INSTAGRAM3
   type: trojan
-  server: nusa.vpncepatz.biz.id
+  server: indo.indoxspeed.cloud
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
@@ -1050,7 +1050,7 @@ proxies:
       Host: z-p15.www.instagram.com
 - name: B_NusaID1_SNI-FB1
   type: trojan
-  server: nusa.vpncepatz.biz.id
+  server: indo.indoxspeed.cloud
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
@@ -1067,13 +1067,13 @@ proxies:
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 #============= TRIK Bolak balik ======================
 - name: B_NusaID1_Bolakbalik-Naver
   type: trojan
@@ -1081,13 +1081,13 @@ proxies:
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 #============= TRIK WILDCARD ======================
 - name: B_NusaID1_WILDCARD
   type: trojan
@@ -1095,13 +1095,13 @@ proxies:
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: ava.game.naver.com.nusa.vpncepatz.biz.id
+  sni: ava.game.naver.com.indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: ava.game.naver.com.nusa.vpncepatz.biz.id
+      Host: ava.game.naver.com.indo.indoxspeed.cloud
 #=================================================
 - name: B_NusaID1_TrojanPROXY-LIMITED
   type: trojan
@@ -1109,81 +1109,81 @@ proxies:
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: ava.game.naver.com.nusa.vpncepatz.biz.id
+  sni: ava.game.naver.com.indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: ava.game.naver.com.nusa.vpncepatz.biz.id
+      Host: ava.game.naver.com.indo.indoxspeed.cloud
 - name: B_NusaID1_Membership-willdcard
   type: trojan
   server: ava.game.naver.com 
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: ava.game.naver.com.nusa.vpncepatz.biz.id
+  sni: ava.game.naver.com.indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /nusa.vpncepatz.biz.id/trojan
+    path: /indo.indoxspeed.cloud/trojan-ws
     headers:
-      Host: ava.game.naver.com.nusa.vpncepatz.biz.id
+      Host: ava.game.naver.com.indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_XCV_CDN1
   type: trojan
   server: 104.17.3.81
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_XCV_CDN2
   type: trojan
   server: 172.67.73.39
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_XCV_WC1
   type: trojan
   server: support.zoom.us
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: zoomgov.vpncepatz.biz.id
+  sni: zoomgov.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_XCV_WC2
   type: trojan
   server: support.zoom.us
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: support.vpncepatz.biz.id
+  sni: support.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_XCV_SNI
   type: trojan
-  server: nusa.vpncepatz.biz.id
+  server: indo.indoxspeed.cloud
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
@@ -1200,286 +1200,286 @@ proxies:
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: zaintest.vpncepatz.biz.id
+  sni: zaintest.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_VIDIO_WC1
   type: trojan
   server: quiz.int.vidio.com
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: quiz.vpncepatz.biz.id
+  sni: quiz.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_VIDIO_WC2
   type: trojan
   server: quiz.vidio.com
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: quiz.vpncepatz.biz.id
+  sni: quiz.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_VIDIO_H1
   type: trojan
   server: quiz.vidio.com
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_VIDIO_H2
   type: trojan
   server: quiz.int.vidio.com
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_VIDIO_H3
   type: trojan
   server: quiz.staging.vidio.com
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_ZOOM_H1
   type: trojan
   server: gomarketplacefront-cf.zoom.us
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_ZOOM_H2
   type: trojan
   server: marketplacefront-cf.zoom.us
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_ZOOM_H3
   type: trojan
   server: gomarketplacecontent-cf.zoom.us
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_GameFF_H1
   type: trojan
   server: ava.game.naver.com
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_GameFF_H2
   type: trojan
   server: df.game.naver.com
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_GameFF_H3
   type: trojan
   server: care.pmang.game.naver.com
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_GameFF_H4
   type: trojan
   server: account.pmang.game.naver.com
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_Gopay_H1
   type: trojan
   server: app-stg.gopay.co.id
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id	  
+      Host: indo.indoxspeed.cloud	  
 - name: B_NusaID1_TLS_XCL_IP1
   type: trojan
   server: 104.16.125.59
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_XCL_IP2
   type: trojan
   server: 104.16.126.59
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_XCL_IP3
   type: trojan
   server: 104.18.214.235
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_XCL_IP4
   type: trojan
   server: 104.18.213.235
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_XCL_IP5
   type: trojan
   server: 162.159.140.158
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_XCL_IP6
   type: trojan
   server: 104.18.3.96
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_XCL_IP7
   type: trojan
   server: 104.18.2.96
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_NusaID1_TLS_Opok50Mb_H1
   type: trojan
   server: pay.ovo.id
   port: 443
   password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
   udp: true
-  sni: nusa.vpncepatz.biz.id
+  sni: indo.indoxspeed.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
     path: /trojan-ws
     headers:
-      Host: nusa.vpncepatz.biz.id
+      Host: indo.indoxspeed.cloud
 - name: B_DstbID1_TJ-Vidi-WS1
   type: trojan
   server: 104.18.1.196
