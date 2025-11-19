@@ -1,6 +1,6 @@
 proxies:
 #============= TRIK VIDI PROS WS BOLAK BALIK ======================
-- name: B_DstbSG1_VMS-Vidi-WS1
+- name: B_DstbSG2_VMS-Vidi-WS1
   type: vmess
   server: 104.18.1.196
   port: 443
