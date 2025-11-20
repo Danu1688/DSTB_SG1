@@ -15,7 +15,7 @@ proxies:
       Host: sg1.nathaya.web.id
 
 #============= TRIK VIDI PROS WS BOLAK BALIK ======================
-- name: B_DstbSG2_VMS-Vidi-WS1
+- name: B_LWebSG1_VMS-Vidi-WS1
   type: vmess
   server: 104.18.1.196
   port: 443
@@ -31,6 +31,39 @@ proxies:
     path: /vmess
     headers:
       Host: sg6.nathaya.web.id
+
+#============= TRIK VIDI PROS WS BOLAK BALIK ======================
+- name: B_LWebSG2_VMS-Vidi-WS1
+  type: vmess
+  server: 104.18.1.196
+  port: 443
+  uuid: f0fc3918-ca49-40bb-8c5f-0ba364c52e2f
+  alterId: 0
+  cipher: auto
+  udp: true
+  skip-cert-verify: true
+  tls: true
+  servername: sg7.nathaya.web.id
+  network: ws
+  ws-opts:
+    path: /vmess
+    headers:
+      Host: sg7.nathaya.web.id
+
+#============= TRIK VIDI PROS WS BOLAK BALIK ======================
+- name: B_LWebSG3_TJ-Vidi-WS1
+  type: trojan
+  server: 104.18.1.196
+  port: 443
+  password: c2e4aa7e-780a-4908-8dd8-eed7622ba41d
+  udp: true
+  sni: sg7.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg7.nathaya.web.id
 
 #============= TRIK VIDI PROS WS BOLAK BALIK ======================
 - name: B_DstbID1_TJ-Vidi-WS1
