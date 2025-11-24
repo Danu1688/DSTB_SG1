@@ -94,21 +94,3 @@ proxies:
     path: /trojan-ws
     headers:
       Host: indo.indoxspeed.cloud
-
-#============= TRIK VIDI PROS WS BOLAK BALIK ======================
-- name: B_NusaID2_VMS-Vidi-WS1
-  type: vmess
-  server: 104.18.1.196
-  port: 443
-  uuid: 4c4819c6-28ac-481e-8dbe-73a5456b2cf0
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: indo.indoxspeed.cloud
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: indo.indoxspeed.cloud
