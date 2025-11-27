@@ -15,7 +15,7 @@ proxies:
       Host: sg1.nathaya.web.id
 
 #============= TRIK VIDI PROS WS BOLAK BALIK ======================
-- name: B_LWebSG2_VMS-Vidi-WS1
+- name: B_LWebSG1_VMS-Vidi-WS1
   type: vmess
   server: 104.18.1.196
   port: 443
@@ -33,7 +33,7 @@ proxies:
       Host: sg7.nathaya.web.id
 
 #============= TRIK VIDI PROS WS BOLAK BALIK ======================
-- name: B_LWebSG3_TJ-Vidi-WS1
+- name: B_LWebSG2_TJ-Vidi-WS1
   type: trojan
   server: 104.18.1.196
   port: 443
