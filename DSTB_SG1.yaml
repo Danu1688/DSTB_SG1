@@ -15,24 +15,6 @@ proxies:
       Host: sg1.nathaya.web.id
 
 #============= TRIK VIDI PROS WS BOLAK BALIK ======================
-- name: B_LWebSG1_VMS-Vidi-WS1
-  type: vmess
-  server: 104.18.1.196
-  port: 443
-  uuid: 5c764884-c11d-4190-b70c-582f2dc5ee68
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: sg6.nathaya.web.id
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sg6.nathaya.web.id
-
-#============= TRIK VIDI PROS WS BOLAK BALIK ======================
 - name: B_LWebSG2_VMS-Vidi-WS1
   type: vmess
   server: 104.18.1.196
