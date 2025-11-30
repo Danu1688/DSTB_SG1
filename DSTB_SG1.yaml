@@ -17,36 +17,6 @@ proxies:
 #============= TRIK VIDI PROS WS BOLAK BALIK ======================
 - name: B_DOSG1_TJ-Vidi-WS2
   type: trojan
-  server: 104.18.56.56
-  port: 443
-  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
-  udp: true
-  sni: sg1.nathaya.web.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.nathaya.web.id
-
-#============= TRIK VIDI PROS WS BOLAK BALIK ======================
-- name: B_DOSG1_TJ-Vidi-WS3
-  type: trojan
-  server: 104.18.62.203
-  port: 443
-  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
-  udp: true
-  sni: sg1.nathaya.web.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.nathaya.web.id
-
-#============= TRIK VIDI PROS WS BOLAK BALIK ======================
-- name: B_DOSG1_TJ-Vidi-WS4
-  type: trojan
   server: onelink.seabank.co.id
   port: 443
   password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
@@ -79,42 +49,6 @@ proxies:
 
 #============= TRIK VIDI PROS WS BOLAK BALIK ======================
 - name: B_LWebSG1_VMS-Vidi-WS2
-  type: vmess
-  server: 104.18.56.56
-  port: 443
-  uuid: f0fc3918-ca49-40bb-8c5f-0ba364c52e2f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: sg7.nathaya.web.id
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sg7.nathaya.web.id
-
-#============= TRIK VIDI PROS WS BOLAK BALIK ======================
-- name: B_LWebSG1_VMS-Vidi-WS3
-  type: vmess
-  server: 104.18.62.203
-  port: 443
-  uuid: f0fc3918-ca49-40bb-8c5f-0ba364c52e2f
-  alterId: 0
-  cipher: auto
-  udp: true
-  skip-cert-verify: true
-  tls: true
-  servername: sg7.nathaya.web.id
-  network: ws
-  ws-opts:
-    path: /vmess
-    headers:
-      Host: sg7.nathaya.web.id
-
-#============= TRIK VIDI PROS WS BOLAK BALIK ======================
-- name: B_LWebSG1_VMS-Vidi-WS4
   type: vmess
   server: onelink.seabank.co.id
   port: 443
@@ -149,36 +83,6 @@ proxies:
 #============= TRIK VIDI PROS WS BOLAK BALIK ======================
 - name: B_LWebSG2_TJ-Vidi-WS2
   type: trojan
-  server: 104.18.56.56
-  port: 443
-  password: c2e4aa7e-780a-4908-8dd8-eed7622ba41d
-  udp: true
-  sni: sg7.nathaya.web.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg7.nathaya.web.id
-
-#============= TRIK VIDI PROS WS BOLAK BALIK ======================
-- name: B_LWebSG2_TJ-Vidi-WS3
-  type: trojan
-  server: 104.18.62.203
-  port: 443
-  password: c2e4aa7e-780a-4908-8dd8-eed7622ba41d
-  udp: true
-  sni: sg7.nathaya.web.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg7.nathaya.web.id
-
-#============= TRIK VIDI PROS WS BOLAK BALIK ======================
-- name: B_LWebSG2_TJ-Vidi-WS4
-  type: trojan
   server: onelink.seabank.co.id
   port: 443
   password: c2e4aa7e-780a-4908-8dd8-eed7622ba41d
@@ -209,36 +113,6 @@ proxies:
 #============= TRIK VIDI PROS WS BOLAK BALIK ======================
 - name: B_IKDID1_TJ-Vidi-WS2
   type: trojan
-  server: 104.18.56.56
-  port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  udp: true
-  sni: id1.nathaya.web.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id1.nathaya.web.id
-
-#============= TRIK VIDI PROS WS BOLAK BALIK ======================
-- name: B_IKDID1_TJ-Vidi-WS3
-  type: trojan
-  server: 104.18.62.203
-  port: 443
-  password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
-  udp: true
-  sni: id1.nathaya.web.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: id1.nathaya.web.id
-
-#============= TRIK VIDI PROS WS BOLAK BALIK ======================
-- name: B_IKDID1_TJ-Vidi-WS4
-  type: trojan
   server: onelink.seabank.co.id
   port: 443
   password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00
@@ -268,36 +142,6 @@ proxies:
 
 #============= TRIK VIDI PROS WS BOLAK BALIK ======================
 - name: B_NusaID1_TJ-Vidi-WS2
-  type: trojan
-  server: 104.18.56.56
-  port: 443
-  password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
-  udp: true
-  sni: indo.indoxspeed.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: indo.indoxspeed.cloud
-
-#============= TRIK VIDI PROS WS BOLAK BALIK ======================
-- name: B_NusaID1_TJ-Vidi-WS3
-  type: trojan
-  server: 104.18.62.203
-  port: 443
-  password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
-  udp: true
-  sni: indo.indoxspeed.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: indo.indoxspeed.cloud
-
-#============= TRIK VIDI PROS WS BOLAK BALIK ======================
-- name: B_NusaID1_TJ-Vidi-WS4
   type: trojan
   server: onelink.seabank.co.id
   port: 443
