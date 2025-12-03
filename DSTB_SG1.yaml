@@ -61,18 +61,3 @@ proxies:
     path: /trojan
     headers:
       Host: id1.nathaya.web.id
-
-#============= TRIK VIDI PROS WS BOLAK BALIK ======================
-- name: B_NusaID1_TJ-Vidi-WS1
-  type: trojan
-  server: 104.18.1.196
-  port: 443
-  password: 4f0dcc08-34bb-4bef-89a0-cd06779d7f58
-  udp: true
-  sni: indo.indoxspeed.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: indo.indoxspeed.cloud
