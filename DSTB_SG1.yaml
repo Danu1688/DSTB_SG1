@@ -159,7 +159,7 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
-	  
+
 #============= TRIK OPOK ======================	  
 - name: B_DstbSG1_TLS_Opok50Mb_H1
   type: trojan
