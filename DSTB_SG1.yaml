@@ -159,6 +159,21 @@ proxies:
     path: /trojan
     headers:
       Host: sg1.nathaya.web.id
+	  
+#============= TRIK OPOK ======================	  
+- name: B_DstbSG1_TLS_Opok50Mb_H1
+  type: trojan
+  server: pay.ovo.id
+  port: 443
+  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
+  udp: true
+  sni: sg1.nathaya.web.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan
+    headers:
+      Host: sg1.nathaya.web.id
 
 #============= TRIK Bolak balik ======================
 - name: B_DstbID1_Bolakbalik-Naver
@@ -174,21 +189,6 @@ proxies:
     path: /trojan
     headers:
       Host: id1.nathaya.web.id
-
-#============= TRIK OPOK ======================	  
-- name: B_DstbSG1_TLS_Opok50Mb_H1
-  type: trojan
-  server: pay.ovo.id
-  port: 443
-  password: ee9d10ff-da1d-4496-8f51-a3ef82aa758d
-  udp: true
-  sni: sg1.nathaya.web.id
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan
-    headers:
-      Host: sg1.nathaya.web.id
 
 #============= TRIK OPOK ======================		  
 - name: B_DstbID1_TLS_Opok50Mb_H1
